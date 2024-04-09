@@ -37,8 +37,9 @@
     - institution: The Hong Kong Polytechnic University
       year: 2017 - 2021
       description:
-        - Density functional theory (DFT) calculation of lanthanide doped 2D materials.
-        - Molecular dynamics simulation of the growth of 2D black phosphors.
+        - Density functional theory (DFT) calculation of lanthanide doped 2D metal dichalcogenide.
+        - Chemical vapor deposition (CVD) growth of lanthanide doped 2D metal dichalcogenide.
+        - Molecular dynamics (MD) simulation of the pulsed laser deposition (PLD) process of 2D black phosphors.
 
     - institution: University of New South Wales
       year: 2021 - present
@@ -52,27 +53,17 @@
     - year: 2029
       items: 
        - Nobel Prize in Physics ?
-
     - year: 2023
       items:
         - UNSW Women in Maths and Science Champions Program
+    - year: 2021 - 2024
+      items:
+        - Australian Government Research Training Program (RTP) Scholarship
     - year: 2016
       items:
-        - Dean's honours list 2016, PolyU
-
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: High-throughput DFT calculation of hybrid organic-inorganic interface
-      items:
-        - VASP.
-        - Gaussian.
-    - title: Interpretable machine learning
-      items:
-        - Description 1.
-        - Description 2.
+        - Dean's honours list, PolyU
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Yoga, Guitar, Handcraft.
+    - <b>Hobbies:</b> Yoga, Guitar, Handcraft.
