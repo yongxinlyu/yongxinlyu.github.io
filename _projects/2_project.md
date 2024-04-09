@@ -2,7 +2,7 @@
 layout: page
 title: DJ perovskite project
 description: high-throughput calculation and machine learning for DJ perovskite materials
-img: assets/img/3.jpg
+img: assets/img/dj-perovskite.png
 importance: 2
 category: work
 giscus_comments: false
