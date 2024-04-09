@@ -34,15 +34,13 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: MPhil Researcher
-      institution: The Hong Kong Polytechnic University
+    - institution: The Hong Kong Polytechnic University
       year: 2017 - 2021
       description:
         - Density functional theory (DFT) calculation of lanthanide doped 2D materials.
         - Molecular dynamics simulation of the growth of 2D black phosphors.
 
-    - title: PhD Researcher
-      institution: University of New South Wales
+    - institution: University of New South Wales
       year: 2021 - present
       description:
         - High-throughput DFT simulation of 2D hybrid organic-inorganic perovskites.
