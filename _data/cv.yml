@@ -7,6 +7,8 @@
       value: 20th Jan 1996
     - name: Languages
       value: English, Mandarin
+    - name: Email
+      value: yongxin.lyu@unsw.edu.au
 
 - title: Education
   type: time_table
