@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: 3D printed perovskite model
+description: a pretty cool perovskite model
 img:
 importance: 3
 category: fun
