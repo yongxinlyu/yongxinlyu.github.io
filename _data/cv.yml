@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Yongxin Lyu
-    - name: Date of Birth
-      value: 20th Jan 1996
     - name: Languages
       value: English, Mandarin
     - name: Email
@@ -30,7 +28,7 @@
       institution: The Hong Kong Polytechnic University
       year: 2013 - 2017
       description:
-       - 1st class honours, GPA: 3.73/4.0
+       - 1st class honours, GPA 3.73/4.0
        - Dean's honours list 2016
 
 - title: Research Experience
@@ -56,10 +54,9 @@
     - year: 2023
       items:
         - UNSW Women in Maths and Science Champions Program
-        - Matteucci Medal
-    - year: 2029
+    - year: 2016
       items:
-        - Max Planck Medal
+        - Dean's honours list 2016, PolyU
 
 - title: Research Interests
   type: nested_list
