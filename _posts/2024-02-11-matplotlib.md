@@ -1,11 +1,10 @@
 ---
 layout: post
 title: the one with matplotlib cheatsheet
-date: 2024-04-11 09:01:00
+date: 2024-02-11 09:01:00
 description: includes matplot color and styling conventions
 tags: formatting images
 categories: sample-posts
-thumbnail: 
 featured: true
 ---
 
