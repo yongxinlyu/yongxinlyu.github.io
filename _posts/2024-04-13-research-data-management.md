@@ -37,7 +37,8 @@ Have you ever come across a file with a name like **Bandgap for compound #13 rec
 | Figure       |    .tif (long-term), .jpg (mid-term)    |     .psd |
 | Text       |    .txt, .md,    |       .doc |
 | Presentation       |    .pdf   |       .ppt |
----
+
+
 For example, a revised file name **00013_bandgap.csv** is much clearer and more informative.
 
 ### Best Practice in File Structure
