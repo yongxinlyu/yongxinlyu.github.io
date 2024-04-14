@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the one with matplotlib cheatsheet
+title: The One with Matplotlib Cheatsheet
 date: 2024-04-11 09:01:00
 description: includes matplot color and styling conventions
 tags: formatting images
