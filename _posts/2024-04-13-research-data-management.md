@@ -2,7 +2,7 @@
 layout: post
 title: The One with Research Data Management
 date: 2024-04-13 09:01:00
-description: dude, where is my data?
+description: dude, where's my stuff?
 tags: data
 categories: sample-posts
 
@@ -20,11 +20,14 @@ At its core, research data management is about ensuring that your data is organi
 
 In the following sections, I'll share some best practices that I've learned along the way, including file formats, naming conventions, and organizational strategies, that can help you manage your research data more effectively. Let's dive in!
 
-#### Best Practices in Research Data Management
+### Best Practices in File Names
 
 - Use Standard, non-proprietary formats
 
-Ever tried opening an old file only to find out it’s in a format that’s no longer supported? Stick to formats outlined below to avoid this headache.
+A very bad filename is `Bandgap, compound #13 recalculated final.xlsx`
+
+1. Be descriptive. final is not descriptive
+2. Use non-proprietary file format
 
 | Data Type | Preferred Format | Proprietary format |
 | :----------- | :------------: | :------------: |
@@ -34,20 +37,39 @@ Ever tried opening an old file only to find out it’s in a format that’s no l
 | Presentation       |    .pdf   |       .ppt |
 | |  | |
 
+3. Avoid special characters
+4. Avoid space, use underscore instead
+5. Don't make file identify depend on capitalization, keep it consistent throughout the project. e.g. try use lower case only
+6. When using sequantial numbering, use leading zeros
 
-- File naming conventions:
+Taking these into consideration, the revised file name `00013_bandgap.csv` looks much better.
 
-
-Picture this: you’re looking for a specific file, but it’s named something like “final_final_version_REAL_FINAL.docx” Avoid the confusion by using simple, descriptive names with underscores instead of spaces and all lowercase letters.
-
-- File organization:
+### Best Practice in File Structure
 
 Nesting folders might seem like a good idea at first, but it can quickly become a maze. Keep it simple and flat. And always include a README file in each folder to give others (and future you) a quick overview of what’s inside
 
-- Dealing with Raw and Processed data.
+Picture a project folder like this, does it looks familiar? 
+- file1-new.py
+- file1.py
+- data-file.txt
+- /old-stuff
+- testoutput1.txt
+- testoutput2.txt
+
+- /01-rawdata
+- /02-metadata
+- /03-code
+- /04-docs
+- /05-figures
 
 Raw data are data files directly output from a software, and meta data are processed data which is a description of your raw data. For example, data file directly output a calculation and meta data are useful information such as bandgap of a material.  Keep them separate and store your raw data in read only format. 
-- Use of version control
+
+Always add a readme file
+
+
+### Best Practice of Version Control
+
+
 
 
 
@@ -56,3 +78,5 @@ Raw data are data files directly output from a software, and meta data are proce
 [Research Data Management @ NYU library](https://guides.nyu.edu/data_management/home)
 
 [Data Management workshops @ MIT](https://libraries.mit.edu/data-management/services/workshops/)
+
+[Earth Lab](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/best-practices-for-organizing-open-reproducible-science/)
