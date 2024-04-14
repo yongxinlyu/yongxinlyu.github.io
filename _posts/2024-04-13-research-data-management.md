@@ -22,12 +22,15 @@ In the following sections, I'll share some best practices that I've learned alon
 
 ### Best Practices in File Names
 
-- Use Standard, non-proprietary formats
 
-A very bad filename is `Bandgap, compound #13 recalculated final.xlsx`
+A very bad filename is **Bandgap, compound #13 recalculated final.xlsx**
 
 1. Be descriptive. final is not descriptive
 2. Use non-proprietary file format
+3. Avoid special characters
+4. Avoid space, use underscore instead
+5. Don't make file identify depend on capitalization, keep it consistent throughout the project. e.g. try use lower case only
+6. When using sequantial numbering, use leading zeros
 
 | Data Type | Preferred Format | Proprietary format |
 | :----------- | :------------: | :------------: |
@@ -35,20 +38,14 @@ A very bad filename is `Bandgap, compound #13 recalculated final.xlsx`
 | Figure       |    .tif (long-term), .jpg (mid-term)    |     .psd |
 | Text       |    .txt, .md,    |       .doc |
 | Presentation       |    .pdf   |       .ppt |
-| |  | |
 
-3. Avoid special characters
-4. Avoid space, use underscore instead
-5. Don't make file identify depend on capitalization, keep it consistent throughout the project. e.g. try use lower case only
-6. When using sequantial numbering, use leading zeros
-
-Taking these into consideration, the revised file name `00013_bandgap.csv` looks much better.
+Taking these into consideration, the revised file name **00013_bandgap.csv** looks much better.
 
 ### Best Practice in File Structure
 
 Nesting folders might seem like a good idea at first, but it can quickly become a maze. Keep it simple and flat. And always include a README file in each folder to give others (and future you) a quick overview of what’s inside
 
-Picture a project folder like this, does it looks familiar? 
+Picture a project folder like this, looks familiar? 
 - file1-new.py
 - file1.py
 - data-file.txt
@@ -68,10 +65,18 @@ Always document you data. add readme file
 
 
 ### Best Practice of Version Control
-README.md [link](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file) to sample README file
 
-.gitignore (e.g. /tmp, .DS_store)
+Traditionally version control is done using a version control table alongside a document, showing a log of changing history of the file. This version control table typically includes the version number (e.g. v1, v2, v3 or 1.0, 1.1, 2.0), modified by whom, details of modifications made, and date modified.
 
+Version control software offers much more convenience over the traditional way of manually log the change and makes collaborations much easier. Some of the online storage platform, such as google drive, onedrive offers the option for version history. Git is the most popular version control software, which at first commonly used by software developers and now adopted widely in academia. Here are some of my tips of using git and Github.
+
+- use `git initiate` to start tracking a new directory. Git will create a hidden directory called .git which contains the changing information of the current directory
+
+- use `git remote` command to add the current directory to github
+
+- always create a README.md [link to sample README files](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file) 
+
+- use .gitignore to ignore files that you don't want to track change. For example, you could create /tmp directory to store temperary data that will eventually be deleted. You can ignore some of the application system specific files, such as .DS_store in Macbook.
 
 
 ### Resources
