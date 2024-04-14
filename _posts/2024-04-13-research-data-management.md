@@ -64,12 +64,13 @@ Picture a project folder like this, does it looks familiar?
 
 Raw data are data files directly output from a software, and meta data are processed data which is a description of your raw data. For example, data file directly output a calculation and meta data are useful information such as bandgap of a material.  Keep them separate and store your raw data in read only format. 
 
-Always add a readme file
+Always document you data. add readme file
 
 
 ### Best Practice of Version Control
+README.md
 
-
+.gitignore (e.g. /tmp)
 
 
 
