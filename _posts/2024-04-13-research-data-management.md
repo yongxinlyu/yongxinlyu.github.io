@@ -24,12 +24,12 @@ In the following sections, I'll share some best practices that I've learned alon
 
 Have you ever come across a file with a name like **Bandgap for compound #13 recalculated final.xlsx** and wondered what "final" actually means? Here are some tips to avoid confusion and keep your file names clear the meaningful:
 
-1. Be descriptive: Avoid generic terms like "final" or "updated". Instead, use names that clearly describe the content of the file.
-2. Use non-proprietary file format: Stick to open formats suggested in the table below to ensure compatibility and long-term accessibility.
-3. Avoid special characters: Special characters can cause issues, especially when sharing files across different platforms.
-4. Avoid space: use underscore instead.
-5. Don't make file identify depend on capitalization: keep it consistent throughout the project. e.g. use lower case only
-6. Use leading zeros for numbering: using 001, 002, 003, ..., 100 instead of 1, 2, 3, ..., 100 helps maintain a consistent order when sorting files.
+1. **Be descriptive**: Avoid generic terms like "final" or "updated". Instead, use names that clearly describe the content of the file.
+2. **Use non-proprietary file format**: Stick to open formats suggested in the table below to ensure compatibility and long-term accessibility.
+3. **Avoid special characters**: Special characters can cause issues, especially when sharing files across different platforms.
+4. **Avoid space**: use underscore instead.
+5. **Don't make file identify depend on capitalization**: keep it consistent throughout the project. e.g. use lower case only
+6. **Use leading zeros for numbering**: using 001, 002, 003, ..., 100 instead of 1, 2, 3, ..., 100 helps maintain a consistent order when sorting files.
 
 | Data Type | Preferred Format | Proprietary format |
 | :----------- | :------------: | :------------: |
