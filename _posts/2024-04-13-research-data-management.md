@@ -37,28 +37,45 @@ Have you ever come across a file with a name like **Bandgap for compound #13 rec
 | Figure       |    .tif (long-term), .jpg (mid-term)    |     .psd |
 | Text       |    .txt, .md,    |       .doc |
 | Presentation       |    .pdf   |       .ppt |
-
+---
 For example, a revised file name **00013_bandgap.csv** is much clearer and more informative.
 
 ### Best Practice in File Structure
 
 Nesting folders might seem like a good idea at first, but it can quickly become a maze. Keep it simple and flat. And always include a README file in each folder to give others (and future you) a quick overview of what’s inside
 
-Picture a project folder like this, looks familiar? 
-- file1-new.py
-- file1.py
-- data-file.txt
-- /old-stuff
-- testoutput1.txt
-- testoutput2.txt
+Picture a project folder like this, looks familiar?
+
+<pre>
+.
+├── file1
+├── directory1/
+│   ├── file2
+│   ├── file3
+│   └── directory2/
+├── file1-new.py
+├── file1.py
+├── data-file.txt
+├── old-stuff/
+├── testoutput1.txt
+└── testoutput2.txt
+</pre>
+
 
 To make the project folder more organized, try seperate different types of file in different directory.
-
-- /01-rawdata
-- /02-metadata
-- /03-code
-- /04-docs
-- /05-figures
+<pre>
+.
+├── 01-rawdata/
+├── 02-metadata/
+│   ├── frontier-level.csv
+│   ├── energy-level-alignment.csv
+│   └── organic-descriptor.csv
+├── 03-code/
+│   ├── machine-learning.ipynb
+│   └── write-VASP-input.py
+├── 04-docs/
+└── 05-figures/
+</pre>
 
 Raw data are data files directly output from a software, and meta data are processed data which is a description of your raw data. For example, data file directly output a calculation and meta data are useful information such as bandgap of a material.  Keep them separate and store your raw data in read only format. 
 
