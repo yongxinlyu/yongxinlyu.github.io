@@ -22,15 +22,14 @@ In the following sections, I'll share some best practices that I've learned alon
 
 ### Best Practices in File Names
 
+Have you ever come across a file with a name like **Bandgap for compound #13 recalculated final.xlsx** and wondered what "final" actually means? Here are some tips to avoid confusion and keep your file names clear the meaningful:
 
-A very bad filename is **Bandgap, compound #13 recalculated final.xlsx**
-
-1. Be descriptive. final is not descriptive
-2. Use non-proprietary file format
-3. Avoid special characters
-4. Avoid space, use underscore instead
-5. Don't make file identify depend on capitalization, keep it consistent throughout the project. e.g. try use lower case only
-6. When using sequantial numbering, use leading zeros
+1. Be descriptive: Avoid generic terms like "final" or "updated". Instead, use names that clearly describe the content of the file.
+2. Use non-proprietary file format: Stick to open formats suggested in the table below to ensure compatibility and long-term accessibility.
+3. Avoid special characters: Special characters can cause issues, especially when sharing files across different platforms.
+4. Avoid space: use underscore instead.
+5. Don't make file identify depend on capitalization: keep it consistent throughout the project. e.g. use lower case only
+6. Use leading zeros for numbering: using 001, 002, 003, ..., 100 instead of 1, 2, 3, ..., 100 helps maintain a consistent order when sorting files.
 
 | Data Type | Preferred Format | Proprietary format |
 | :----------- | :------------: | :------------: |
@@ -39,7 +38,7 @@ A very bad filename is **Bandgap, compound #13 recalculated final.xlsx**
 | Text       |    .txt, .md,    |       .doc |
 | Presentation       |    .pdf   |       .ppt |
 
-Taking these into consideration, the revised file name **00013_bandgap.csv** looks much better.
+For example, a revised file name **00013_bandgap.csv** is much clearer and more informative.
 
 ### Best Practice in File Structure
 
@@ -65,6 +64,8 @@ Raw data are data files directly output from a software, and meta data are proce
 
 
 ### Best Practice of Version Control
+
+Version control is like having a time machine for your files, allowing you to track changes and collaborate more efficiently. 
 
 Traditionally version control is done using a version control table alongside a document, showing a log of changing history of the file. This version control table typically includes the version number (e.g. v1, v2, v3 or 1.0, 1.1, 2.0), modified by whom, details of modifications made, and date modified.
 
