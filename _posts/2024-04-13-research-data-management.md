@@ -68,9 +68,9 @@ Always document you data. add readme file
 
 
 ### Best Practice of Version Control
-README.md
+README.md [link](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file) to sample README file
 
-.gitignore (e.g. /tmp)
+.gitignore (e.g. /tmp, .DS_store)
 
 
 
