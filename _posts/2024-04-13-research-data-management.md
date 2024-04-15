@@ -22,7 +22,7 @@ In the following sections, I'll share some best practices that I've learned alon
 
 ### Best Practices in File Names
 
-Have you ever come across a file with a name like **Bandgap for compound #13 recalculated final.xlsx** and wondered what "final" actually means? Here are some tips to avoid confusion and keep your file names clear the meaningful:
+Have you ever come across a file with a name like **Bandgap for Compound #13 recalculated final.xlsx** and wondered what "final" actually means? Here are some tips to avoid confusion and keep your file names clear the meaningful:
 
 1. **Be descriptive**: Avoid generic terms like "final" or "updated". Instead, use names that clearly describe the content of the file.
 2. **Use non-proprietary file format**: Stick to open formats suggested in the table below to ensure compatibility and long-term accessibility.
@@ -51,13 +51,16 @@ Picture a project folder like this, looks familiar?
 .
 ├── file1
 ├── directory1/
-│   ├── file2
-│   ├── file3
-│   └── directory2/
+│   ├── process-data.ipynb
+│   ├── frontier-level-new.csv
+│   └── old-stuff/
+│       ├── file2
+│       └── figures/
+│           └── new-figure/
+│                └── figure1.tif/
 ├── file1-new.py
 ├── file1.py
 ├── data-file.txt
-├── old-stuff/
 ├── testoutput1.txt
 └── testoutput2.txt
 </pre>
@@ -67,6 +70,8 @@ To make the project folder more organized, try seperate different types of file 
 <pre>
 .
 ├── 01-rawdata/
+│   ├── VASP-result.html
+│   └── Gaussian-result
 ├── 02-metadata/
 │   ├── frontier-level.csv
 │   ├── energy-level-alignment.csv
