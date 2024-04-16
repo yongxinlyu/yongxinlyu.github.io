@@ -22,14 +22,19 @@ In the following sections, I'll share some best practices that I've learned alon
 
 ### Best Practices in File Names
 
-Have you ever come across a file with a name like **Bandgap for Compound #13 recalculated final.xlsx** and wondered what "final" actually means? Here are some tips to avoid confusion and keep your file names clear the meaningful:
+Have you ever come across a file with a name like "Bandgap for Compound #13 recalculated final.xlsx" and wondered what "final" actually means?  A revised file name "00013_bandgap.csv" is much clearer and more informative. Here are some tips to avoid confusion and keep your file names clear the meaningful:
 
-1. **Be descriptive**: Avoid generic terms like "final" or "updated". Instead, use names that clearly describe the content of the file.
-2. **Use non-proprietary file format**: Stick to open formats suggested in the table below to ensure compatibility and long-term accessibility.
-3. **Avoid special characters**: Special characters can cause issues, especially when sharing files across different platforms.
-4. **Avoid space**: use underscore instead.
-5. **Don't make file identify depend on capitalization**: keep it consistent throughout the project. e.g. use lower case only
-6. **Use leading zeros for numbering**: using 001, 002, 003, ..., 100 instead of 1, 2, 3, ..., 100 helps maintain a consistent order when sorting files.
+**Be descriptive**: "final" doesn't tell us much. Be specific!
+
+**Use non-proprietary file format**: Keep it open and accessible. Stick to open formats suggested in the table below.
+
+**Avoid special characters**: Special characters can cause issues, especially when sharing files across different platforms.
+
+**Say no to space**: Use underscore instead.
+
+**Keep it consistent**: Don't make file identity depend on capitalization. Keep if consistent throughout the project and document all naming conventions, e.g. use lower case only.
+
+**Use leading zeros for numbering**: using 001, 002, 003, ..., 100 instead of 1, 2, 3, ..., 100. This helps maintain a consistent order when sorting files.
 
 | Data Type | Preferred Format | Proprietary format |
 | :----------- | :------------: | :------------: |
@@ -38,14 +43,9 @@ Have you ever come across a file with a name like **Bandgap for Compound #13 rec
 | Text       |    .txt, .md,    |       .doc |
 | Presentation       |    .pdf   |       .ppt |
 
-
-For example, a revised file name **00013_bandgap.csv** is much clearer and more informative.
-
 ### Best Practice in File Structure
 
-Nesting folders might seem like a good idea at first, but it can quickly become a maze. Keep it simple and flat. And always include a README file in each folder to give others (and future you) a quick overview of what’s inside
-
-Picture a project folder like this, looks familiar?
+Let's take a look at a typical project folder structure. Sound familiar?
 
 <pre>
 .
@@ -65,8 +65,8 @@ Picture a project folder like this, looks familiar?
 └── testoutput2.txt
 </pre>
 
+Now, let's reorganize it for clarity and efficiency:
 
-To make the project folder more organized, try seperate different types of file in different directory.
 <pre>
 .
 ├── 01-rawdata/
@@ -83,8 +83,13 @@ To make the project folder more organized, try seperate different types of file 
 └── 05-figures/
 </pre>
 
-Raw data are data files directly output from a software, and meta data are processed data which is a description of your raw data. For example, data file directly output a calculation and meta data are useful information such as bandgap of a material.  Keep them separate and store your raw data in read only format. 
+A few tricks I've learned along the way:
 
+**Keep it flat:** Nesting folders might seem like a good idea, but it can quickly become a maze. How many clicks does it take you to get to a file?
+
+**Separate different types of files:** Organize your files by type for easy access and understanding. Number the folders them when possible.
+
+**Distinguish between raw data and metadata:** Raw data is the file directly obtained from a software of instrument. It should be read-only. (Never modify your raw data!) Metadata describes your raw data, which provides insights into the raw data for those without expertise in the specific calculation method. For example, the output file from a DFT calculation is raw data, while the energy level or bandgap is metadata.
 
 ### Best Practice of Version Control
 
@@ -92,15 +97,65 @@ Version control is like having a time machine for your files, allowing you to tr
 
 Traditionally version control is done using a version control table alongside a document, showing a log of changing history of the file. This version control table typically includes the version number (e.g. v1, v2, v3 or 1.0, 1.1, 2.0), modified by whom, details of modifications made, and date modified.
 
-Version control software offers much more convenience over the traditional way of manually log the change and makes collaborations much easier. Some of the online storage platform, such as google drive, onedrive offers the option for version history. Git is the most popular version control software, which at first commonly used by software developers and now adopted widely in academia. Here are some of my tips of using git and Github.
+Today, version control software like Git offers a more convenience and efficient way to manage versions and collaborate with others. Git, orginally used mainly by software developers, is now widely adopted in academia and beyond. Here are some of my tips for using git and Github.
 
-- use `git initiate` to start tracking a new directory. Git will create a hidden directory called .git which contains the changing information of the current directory
+**Setting up**
 
-- use `git remote` command to add the current directory to github
+```bash
+# Run this anytime to check status of your directory
+$ git status
 
-- always create a README.md [link to sample README files](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file) 
+# Start tracking a new directory with default branch named as 'main'
+$ git inite -b main
 
-- use .gitignore to ignore files that you don't want to track change. For example, you could create /tmp directory to store temperary data that will eventually be deleted. You can ignore some of the application system specific files, such as .DS_store in Macbook.
+# which is equivalent to 
+$ git init
+$ git branch -m main
+# Above command create .git which contains the changing information of the current directory
+
+# Add the local directory to existing github repository.
+# Replace 'REMOTE-URL' with the repository's full URL on Github 
+$ git remote add origin REMOTE-URL
+
+# Run this anytime to verify the remote URL
+$ git remote -v
+
+```
+
+**Update files**
+
+All of the following steps can also be done in Visual Studio Code.
+
+``` bash
+# Add files to git repository and stage, i.e. start tracking change for this file
+$ git add ./file-to-add-and-stage
+
+# Commit the files that you've staged
+$ git commit -m "Your message for this commit"
+
+# Push the changes in your local repository to GitHub
+$ git push -u origin main
+
+```
+
+
+**Tips**
+
+**Add README file:** Always create a README.md in every folder. Ask yourself: How did you get from raw data to the final product of research? What are your file naming conventions? What is your folder hierarchy?
+
+**Ignore files:** use `.gitignore` to ignore files that you don't want to track change. For example, you could create /tmp directory to store temperary data that will eventually be deleted. You can ignore some of the application system specific files, such as .DS_store in Macbook.
+
+
+### Workflow and Collaborating with non-coders
+
+Visual Studio Code >> OneDrive >> GitHub >> Teams
+- Visual Studio Code: Programming
+- OneDrive: Data storage, collaborate writing
+- GitHub: Code management
+- Teams: Communication, Project management
+
+Using shared folder for collaborate writing:
+Although git is widely adopted by researchers in computer science, computational materials science, Git is still used by minority in academia. When collaborating with supervisor, external collaborators, it is still best to use a platform widely adopted, such as word document, or google doc.
 
 
 ### Resources
@@ -110,3 +165,7 @@ Version control software offers much more convenience over the traditional way o
 [Data Management workshops @ MIT](https://libraries.mit.edu/data-management/services/workshops/)
 
 [Earth Lab](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/best-practices-for-organizing-open-reproducible-science/)
+
+[Youtube tutorial: Using Github for researchers](https://www.youtube.com/watch?v=6OkOmPqumWo&list=LL&index=3)
+
+[Link to sample README files](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file)
