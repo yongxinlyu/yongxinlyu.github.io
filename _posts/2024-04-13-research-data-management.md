@@ -143,10 +143,20 @@ $ git push -u origin main
 
 **Add README file:** Always create a README.md in every folder. Ask yourself: How did you get from raw data to the final product of research? What are your file naming conventions? What is your folder hierarchy?
 
-**Ignore files:** use `.gitignore` to ignore files that you don't want to track change. For example, you could create /tmp directory to store temperary data that will eventually be deleted. You can ignore some of the application system specific files, such as .DS_store in Macbook.
+**Ignore files:** Create `.gitignore` at the root of your repository to ignore files that you don't want to track change.
+```bash
+$ cat .gitignore
 
+# OS generated files
+**/.DS_Store
+# Temporary files
+**/tmp
+# Too large files
+./files-too-large-in-size
+```
 
 ### Workflow and Collaborating with non-coders
+`Coming soon`
 
 Visual Studio Code >> OneDrive >> GitHub >> Teams
 - Visual Studio Code: Programming
