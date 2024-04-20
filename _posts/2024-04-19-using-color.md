@@ -8,9 +8,6 @@ categories: research
 featured: true
 ---
 
-
-
-
 ### General principles for using color:
 
 We usually program colors in a computer by specifying their `RGB values`, i.e., intensity of the red, green and blue.
@@ -27,7 +24,7 @@ for quantitative data, use sequantial color palette, very saturation and/or ligh
 
 ```python
 # Obtain the RGB and HSV value of a color palette
-palette = seaborn.color_palette('colorblind')
+palette = seaborn.color_palette('colorblind', 6)
 rgb_array, hsv_array = [], []
 for color in palette:
     rgb_value = mpl.colors.to_rbg(color)
@@ -56,7 +53,7 @@ ax.set_yticks([])
     </div>
 </div>
 
-### Pick single color quick and dirty
+### Pick colors quick and dirty
 
 - Matplotlib Tableau Palette (should be enough for previewing plot)
 
@@ -80,6 +77,18 @@ ax.set_yticks([])
     A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
 </div>
 
+```python
+tips = sns.load_dataset("tips")
+
+# Use single color
+## keyword color is passed down to matplotlib interface
+sns.scatterplot(data=tips, x="total_bill", y="tip", color="tab:orange") 
+
+# Use multiple colors
+sns.scatterplot(data=tips, x="total_bill", y="tip", hue="sex", palette={"Female": "tab:green", "Male": "tab:blue"})
+```
+
+
 ### Pick colors using color palette
 - Matplotlib qualitative color palette
 
@@ -94,22 +103,21 @@ ax.set_yticks([])
 
 ```python
 # choosing/customizing color palette
-seaborn.color_palette('colorblind', 6)
-seaborn.color_palette(['orange', 'royalblue', 'green'], 3)
+sns.scatterplot(data=tips, x="total_bill", y="tip", hue="sex", palette='colorblind')
+
+# Plotting in seaborn object interface
+(
+    so.Plot(tips, x="total_bill", y="tip", color="sex")
+    .add(so.Dots())
+    .scale(color='colorblind')
+)
 ```
 
+
 ### Pick color from external website
+Pick color from adobe [website](https://color.adobe.com/create/color-wheel/)
 
-{::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/blog.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
-{% if notebook_exists == "true" %}
-{% jupyter_notebook jupyter_path %}
-{% else %}
-
-<p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
+seaborn.color_palette(['orange', 'royalblue', 'green'], 3)
 
 **Resources:**
 
