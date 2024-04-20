@@ -82,10 +82,15 @@ tips = sns.load_dataset("tips")
 
 # Use single color
 ## keyword color is passed down to matplotlib interface
-sns.scatterplot(data=tips, x="total_bill", y="tip", color="tab:orange") 
+sns.scatterplot(
+    data=tips, x="total_bill", y="tip", color="tab:orange"
+    ) 
 
 # Use multiple colors
-sns.scatterplot(data=tips, x="total_bill", y="tip", hue="sex", palette={"Female": "tab:green", "Male": "tab:blue"})
+sns.scatterplot(
+    data=tips, x="total_bill", y="tip", hue="sex", 
+    palette={"Female": "tab:green", "Male": "tab:blue"}
+    )
 ```
 
 
@@ -103,7 +108,10 @@ sns.scatterplot(data=tips, x="total_bill", y="tip", hue="sex", palette={"Female"
 
 ```python
 # choosing/customizing color palette
-sns.scatterplot(data=tips, x="total_bill", y="tip", hue="sex", palette='colorblind')
+sns.scatterplot(
+    data=tips, x="total_bill", y="tip", hue="sex", 
+    palette='colorblind'
+    )
 
 # Plotting in seaborn object interface
 (
