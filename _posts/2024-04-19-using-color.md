@@ -35,6 +35,15 @@ for quantitative data, use sequantial color palette, very saturation and/or ligh
 
 <img src='/assets/img/matplotlib-color/1.png' alt="drawing" width="200"/>
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/matplotlib-color/1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
 
 - Matplotlib Tableau Palette (should be enough for previewing plot)
 ![image2](/assets/img/matplotlib-color/2.png)
