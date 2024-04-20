@@ -25,10 +25,38 @@ lightness: black - white (start with 50%)
 for categorical data, use qualitative color palette, vary the hue only. (maybe also use different markers and labels?)
 for quantitative data, use sequantial color palette, very saturation and/or lightness. (color blind people can sense lightness in color)
 
+```python
+# Obtain the RGB and HSV value of a color palette
+palette = seaborn.color_palette('colorblind')
+rgb_array, hsv_array = [], []
+for color in palette:
+    rgb_value = mpl.colors.to_rbg(color)
+    hsv_value = mpl.colors.rgb_to_hsv(rgb_value)
+    rgb_array.append(rgb_value)
+    hsv_array.append(hsv_value)
 
-### Using prepared color palette in matplotlib
+rgb_array = np.array(rgb_array) # red, green, blue
+hsv_array = np.array(hsv_array) # hue, saturation, lightness
 
-#### 1. picking single colors quick and dirty
+# Plot the color wheel with hue and saturation
+fig = plt.figure()
+ax = fig.add_subplot(projection='polar')
+ax.scatter(x = 2 * np.pi * hsv_array[:, 0], 
+           y = hsv_array[:, 1],
+           color = [color for color in palette])
+ax.set_yticks([])
+```
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/matplotlib-color/palette.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/matplotlib-color/polar-plot.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### Pick single color quick and dirty
 
 - Matplotlib Tableau Palette (should be enough for previewing plot)
 
@@ -52,7 +80,7 @@ for quantitative data, use sequantial color palette, very saturation and/or ligh
     A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
 </div>
 
-#### 2. Picking color using color palette
+### Pick colors using color palette
 - Matplotlib qualitative color palette
 
 <div class="row mt-3">
@@ -66,10 +94,11 @@ for quantitative data, use sequantial color palette, very saturation and/or ligh
 
 ```python
 # choosing/customizing color palette
-sns.color_palette('colorblind', 6)
-sns.color_palette(['orange', 'royalblue', 'green'], 3)
+seaborn.color_palette('colorblind', 6)
+seaborn.color_palette(['orange', 'royalblue', 'green'], 3)
 ```
-#### 3. Picking color from external website
+
+### Pick color from external website
 
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/blog.ipynb" | relative_url %}
@@ -82,7 +111,7 @@ sns.color_palette(['orange', 'royalblue', 'green'], 3)
 {% endif %}
 {:/nomarkdown}
 
-Resources: 
+**Resources:**
 
 [seaborn guide to chose color palette](https://seaborn.pydata.org/tutorial/color_palettes.html)
 
