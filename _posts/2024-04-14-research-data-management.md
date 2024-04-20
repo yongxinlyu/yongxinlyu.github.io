@@ -3,8 +3,8 @@ layout: post
 title: The One with Research Data Management
 date: 2024-04-14 09:01:00
 description: dude, where's my stuff?
-tags: data
-categories: sample-posts
+tags: figures
+categories: research
 
 ---
 

@@ -3,8 +3,8 @@ layout: post
 title: The One with Using Colors in Scientific Plots
 date: 2024-04-19 09:01:00
 description: how to use color 
-tags: formatting images
-categories: sample-posts
+tags: figures
+categories: research
 featured: true
 ---
 

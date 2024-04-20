@@ -4,7 +4,7 @@ title: The One with Figure Formatting
 date: 2024-04-15 09:01:00
 description: Figure formatting in research journals
 tags: figures
-categories: sample-posts
+categories: research
 
 ---
 How to use color in scientific illustration?
