@@ -8,18 +8,10 @@ categories: sample-posts
 featured: true
 ---
 
-Matplotlib Base colors
-![image1](/assets/img/matplotlib-color/1.png)
-
-Matplotlib Tableau Palette
-![image2](/assets/img/matplotlib-color/2.png)
-
-Matplotlib CSS Colors
-![image3](/assets/img/matplotlib-color/3.png)
 
 
 
-General principles for using color:
+### General principles for using color:
 
 We usually program colors in a computer by specifying their `RGB values`, i.e., intensity of the red, green and blue.
 
@@ -34,10 +26,28 @@ for categorical data, use qualitative color palette, vary the hue only. (maybe a
 for quantitative data, use sequantial color palette, very saturation and/or lightness. (color blind people can sense lightness in color)
 
 
-Using prepared color palette in matplotlib
+### Using prepared color palette in matplotlib
 
+#### 1. picking single colors quick and dirty
 
+- Matplotlib Base colors (too ugly)
+![image1](/assets/img/matplotlib-color/1.png)
 
+- Matplotlib Tableau Palette (should be enough for previewing plot)
+![image2](/assets/img/matplotlib-color/2.png)
+
+- Matplotlib CSS Colors (not necessary)
+![image3](/assets/img/matplotlib-color/3.png)
+
+#### 2. Picking color using color palette
+- Matplotlib qualitative color palette
+![image4](/assets/img/matplotlib-color/matplotlib-qualitative-color-palette.png)
+
+```python
+# choosing/customizing color palette
+sns.color_palette('colorblind', 6)
+sns.color_palette(['orange', 'royalblue', 'green'], 3)
+```
 
 
 Resources: 
