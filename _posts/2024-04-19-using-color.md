@@ -30,36 +30,47 @@ for quantitative data, use sequantial color palette, very saturation and/or ligh
 
 #### 1. picking single colors quick and dirty
 
-- Matplotlib Base colors (too ugly)
-![image1](/assets/img/matplotlib-color/1.png)
-
-<img src='/assets/img/matplotlib-color/1.png' alt="drawing" width="200"/>
+- Matplotlib Tableau Palette (should be enough for previewing plot)
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/matplotlib-color/1.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/matplotlib-color/2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
 </div>
 
-
-- Matplotlib Tableau Palette (should be enough for previewing plot)
-![image2](/assets/img/matplotlib-color/2.png)
-
 - Matplotlib CSS Colors (not necessary)
-![image3](/assets/img/matplotlib-color/3.png)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/matplotlib-color/3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
 
 #### 2. Picking color using color palette
 - Matplotlib qualitative color palette
-![image4](/assets/img/matplotlib-color/matplotlib-qualitative-color-palette.png)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/matplotlib-color/matplotlib-qualitative-color-palette.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
 
 ```python
 # choosing/customizing color palette
 sns.color_palette('colorblind', 6)
 sns.color_palette(['orange', 'royalblue', 'green'], 3)
 ```
+#### 3. Picking color from external website
+
 
 
 Resources: 
