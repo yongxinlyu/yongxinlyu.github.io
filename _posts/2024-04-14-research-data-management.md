@@ -166,6 +166,7 @@ Visual Studio Code >> OneDrive >> GitHub >> Teams
 
 Using shared folder for collaborate writing:
 Although git is widely adopted by researchers in computer science, computational materials science, Git is still used by minority in academia. When collaborating with supervisor, external collaborators, it is still best to use a platform widely adopted, such as word document, or google doc.
+non-coder option: LaTeX (still not common)
 
 
 ### Resources
