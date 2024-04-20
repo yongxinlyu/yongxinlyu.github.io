@@ -33,6 +33,9 @@ for quantitative data, use sequantial color palette, very saturation and/or ligh
 - Matplotlib Base colors (too ugly)
 ![image1](/assets/img/matplotlib-color/1.png)
 
+<img src='/assets/img/matplotlib-color/1.png' alt="drawing" width="200"/>
+
+
 - Matplotlib Tableau Palette (should be enough for previewing plot)
 ![image2](/assets/img/matplotlib-color/2.png)
 
