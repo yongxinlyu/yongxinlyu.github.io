@@ -34,18 +34,22 @@
 - title: Research Experience
   type: time_table
   contents:
-    - institution: The Hong Kong Polytechnic University
+    - title: High-throughput simulation and machine learning for 2D perovskite discovery
+      institution: University of New South Wales
+      year: 2021 - present
+      description:
+        - High-throughput DFT simulation of 2D hybrid organic-inorganic perovskites.
+        - Interpretable machine learning for materials discovery.
+
+    - title: Atomistic simulation and growth of 2D materials
+      institution: The Hong Kong Polytechnic University
       year: 2017 - 2021
       description:
         - Density functional theory (DFT) calculation of lanthanide doped 2D metal dichalcogenide.
         - Chemical vapor deposition (CVD) growth of lanthanide doped 2D metal dichalcogenide.
         - Molecular dynamics (MD) simulation of the pulsed laser deposition (PLD) process of 2D black phosphors.
 
-    - institution: University of New South Wales
-      year: 2021 - present
-      description:
-        - High-throughput DFT simulation of 2D hybrid organic-inorganic perovskites.
-        - Interpretable machine learning for materials discovery.
+
 
 - title: Honors and Awards
   type: time_table

@@ -91,6 +91,8 @@ A few tricks I've learned along the way:
 
 **Distinguish between raw data and metadata:** Raw data is the file directly obtained from a software of instrument. It should be read-only. (Never modify your raw data!) Metadata describes your raw data, which provides insights into the raw data for those without expertise in the specific calculation method. For example, the output file from a DFT calculation is raw data, while the energy level or bandgap is metadata.
 
+**Use existing data science project as template** see [cookiecutter data science project](https://drivendata.github.io/cookiecutter-data-science/) 
+
 ### Best Practice of Version Control
 
 Version control is like having a time machine for your files, allowing you to track changes and collaborate more efficiently. 
