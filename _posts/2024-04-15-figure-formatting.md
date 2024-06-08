@@ -23,7 +23,7 @@ How to use color in scientific illustration?
 [Source from APS](https://journals.aps.org/prl/authors#:~:text=Figures%20should%20have%20a%20width,all%20figures%20electronically%20for%20production.)
 
 **PPT**
-- page size: 10 x 5.625 in (normal); 13.333 x 7.5 in (wide screen)
+- page size: 13.333 x 7.5 in (wide screen)
 - producing figures: 96 dpi (default in matplotlib)
 - font size on slide: 18, 20, 24, 28, 36 pt. (reference can be 14 pt)
 - Every slide should have a heading (a simple sentence)
