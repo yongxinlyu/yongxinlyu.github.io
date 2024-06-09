@@ -31,3 +31,13 @@ I want you to become my Prompt Creator. Your goal is to help me craft the best p
 
 3. We will continue this iterative process with me providing additional information to you and you updating the prompt in the Revised prompt section until it's complete.
 ```
+
+[Prompt Easy in Poe](https://poe.com/prompteasy/)
+
+**Research purpose**
+- [Perplexity](https://www.perplexity.ai)
+- [Consensus](https://consensus.app)
+
+**Create your own chatbot**
+- [run LLM on your own computer]((https://Imstudio.ai/))
+
