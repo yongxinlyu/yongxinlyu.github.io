@@ -48,3 +48,31 @@ plt.ylabel('Y label (V)', fontsize=18)
 # two figures on a slide side by side
 fig = plt.figure(figsize=(5,3), dpi=96)
 ```
+
+**Nature Materials - Article**
+
+An Article is a substantial novel research study, with a complex story often involving several techniques or approaches. 
+
+Format
+
+Main text – up to 3,000 words, excluding abstract, Methods, references and figure legends.
+
+Abstract – up to 150 words, unreferenced. 
+
+Display items – up to 6 items (figures and/or tables). 
+
+Article should be divided as follows: 
+- Introduction (without heading) 
+- Results
+- Discussion
+- Online Methods. ​
+
+Results and Methods should be divided by topical subheadings; the Discussion does not contain subheadings.
+
+References – up to 50.
+
+Articles include received/accepted dates. 
+
+Articles may be accompanied by supplementary information. 
+
+Articles are peer reviewed.
