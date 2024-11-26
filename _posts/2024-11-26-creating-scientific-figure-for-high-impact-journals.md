@@ -3,11 +3,9 @@ layout: post
 title: Creating Scientific Figures for High-Impact Journals
 date: 2024-11-25 09:01:00
 description: Lesson Learned the Hard Way 
-categories: research
+categories: research publication figure
 featured: true
 ---
-
-## Creating Scientific Figures for High-Impact Journals: Lesson Learned the Hard Way
 
 I’m currently writing the first manuscript of my PhD research. If you’ve been through this, you know how dauting it feels to translate years of hard work into a polished, publishable story. But what really caught me off guard wasn’t the writing – it was the figures.
 
@@ -19,7 +17,7 @@ As my supervisor puts it:
 ### From Slides to Manuscripts: A Bumpy Ride
 In our research group, we present our data in weekly meetings. The figures we show are built for slides: quick, clear, and functional. Once a project is deemed publication-worthy, we transition those slide figures into manuscript-ready versions. Sounds simple, right? Not so much.
 
-It took me **three months** and ten full iterations to get my figures ready for my first draft of manuscript. Yes, **ten versions**! And this was after starting with presentation-ready figures that I thought were pretty good. Looking back, I wish I’d know a few things when I started – things that could have saved me a lot of time and frustration.
+It took me *three months* and ten full iterations to get my figures ready for my first draft of manuscript. Yes, *ten versions*! And this was after starting with presentation-ready figures that I thought were pretty good. Looking back, I wish I’d know a few things when I started – things that could have saved me a lot of time and frustration.
 
 If you’re in a similar spot, here are some lessons I’ve learned about creating scientific figures for high-impact journals. Whether you’re just starting your PhD or struggling with a figure set like I was, I hope these tips will help.
 
@@ -31,7 +29,7 @@ What I didn’t realize was that revision is not just inevitable—it’s the po
 Now, instead of beating myself up over changes, I treat revisions as part of the process. Each round gets the figures closer to the final goal. It’s less stressful, and it works.
 
 ### Lesson 2: Choose the Right Tools
-Here’s a confession: I used PowerPoint for making figures throughout my MPhil and my first year of my PhD. For **four years**, I didn’t even know the difference between vector and raster images. If that sounds like you, here’s your wake-up call: PowerPoint might be find for slides, but it’s not enough for high-impact journals.
+Here’s a confession: I used PowerPoint for making figures throughout my MPhil and my first year of my PhD. For *four years*, I didn’t even know the difference between vector and raster images. If that sounds like you, here’s your wake-up call: PowerPoint might be find for slides, but it’s not enough for high-impact journals.
 
 Once I started using tools like Inkscape, everything changed. Inkscape allows you to create scalable vector graphics, which look professional and stay sharp at any size. It was a steep learning curve, but totally worth it.
 
