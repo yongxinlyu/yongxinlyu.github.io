@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Data Figure Workflow I use
-date: 2024-11-25 09:01:00
+date: 2024-12-09 09:01:00
 description: lessons learned the hard way 
 categories: research publication figure
 featured: true
 ---
-# How to Create Scientific Figures for High-Impact Journals: Workflow and Tools
 
 In my last blog post, I shared some general tips for creating scientific figures that catch the eyes of high-impact journal editors. If you missed it, the takeaway was simple: avoid using PowerPoint for figures! Tools like Adobe Illustrator (if your university provides access) or the free and powerful Inkscape are much better options for creating vector-based, publication-ready visuals.
 
@@ -20,7 +19,7 @@ When you’re knee-deep in data, it’s tempting to start plotting right away, e
 
 Why is this so important? Because every figure in your paper serves a purpose: it supports a specific argument, explains a key trend, or communicates a core finding. Plotting for the sake of plotting not only wastes time but can also muddy the clarity of your manuscript.
 
-### Some questions to guide your planning:
+#### Some questions to guide your planning:
 - What is the key message of the figure?
 - Is the figure essential for the main paper or better suited for supplementary information?
 - Will it highlight a trend, an anomaly, or a comparison?
@@ -34,18 +33,18 @@ I’ve fallen into the trap of creating beautiful but unnecessary figures during
 
 There are many plotting tools available, and I’ve tried most of them during my PhD. Here’s a breakdown of my journey, along with what I learned the hard way.
 
-### **Matplotlib**
+#### **Matplotlib**
 This is Python’s default plotting library. It’s powerful but requires a lot of customization to look polished. I started with Matplotlib but quickly moved on because I wanted something more visually appealing out of the box.
 
-### **Seaborn**
+#### **Seaborn**
 Seaborn became my go-to for years. It offers beautiful default styles and handles complex visualizations with ease. Recently, I switched to its newer `seaborn.objects` interface, which is much more intuitive and efficient for many plot types. While it still lacks fine-tuning options for some needs, it’s excellent for most use cases.
 
-### **Plotly**
+#### **Plotly**
 Ah, Plotly. This library is the king of interactive plots. Early in my PhD, I experimented with creating interactive HTML plots, which allowed me to explore data dynamically and share insights with collaborators. For example, I could hover over points to see exactly which sample each represented—an invaluable feature for early-stage data exploration.
 
 But here’s the catch: **Plotly isn’t great for creating publication-ready figures.** Its formatting options for static images aren’t as precise as Seaborn’s, and I found myself constantly struggling to get them journal-ready.
 
-### **What I’d Do Differently**
+#### **What I’d Do Differently**
 If I could start over, I’d:
 1. Use Plotly for early-stage data exploration to leverage its interactivity.
 2. Transition to Seaborn for creating polished, static plots for publication.
