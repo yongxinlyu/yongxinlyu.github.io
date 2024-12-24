@@ -2,7 +2,7 @@
 layout: post
 title: Data Figure Workflow I use
 date: 2024-12-09 09:01:00
-description: lessons learned the hard way 
+description: on preparing data figures 
 categories: research publication figure
 featured: true
 ---
