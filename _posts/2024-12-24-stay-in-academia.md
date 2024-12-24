@@ -4,9 +4,8 @@ title: Should I Stay in Academia? Exploring Career Paths Beyond the PhD Student
 date: 2024-12-23 09:01:00
 description: Reflecting on the Final Stretch of My PhD
 categories: research career 
-featured: true
+featured: false
 ---
-
 
 **Three months left.** That’s how close I am to submitting my PhD thesis. The end feels near, yet the uncertainty about what comes next feels overwhelming. Like many PhD students, I’ve always assumed I’d stay in academia—**become a professor, run my own lab,** and carve out a life of research and teaching. It’s the career path everyone around me seemed to expect.
 
