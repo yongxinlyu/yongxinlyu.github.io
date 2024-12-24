@@ -584,6 +584,16 @@ span.autosave_status {
   display: none;
 }
 
+/* Adjust the font size of the blog name */
+.header-bar h1 {
+  font-size: 3rem; /* Change this value to your desired font size */
+}
+
+/* Adjust the font size of the blog description */
+.header-bar h2 {
+  font-size: 1.5rem; /* Change this value to your desired font size */
+}
+
 #menubar,
 div#menubar {
   background-color: #ffffff;
