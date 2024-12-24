@@ -4,7 +4,7 @@ title: Creating Scientific Figures for High-Impact Journals
 date: 2024-11-25 09:01:00
 description: lessons learned the hard way 
 categories: research publication figure
-featured: true
+featured: false
 ---
 
 I’m currently writing the first manuscript of my PhD research. If you’ve been through this, you know how dauting it feels to translate years of hard work into a polished, publishable story. But what really caught me off guard wasn’t the writing – it was the figures.

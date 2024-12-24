@@ -5,7 +5,7 @@ date: 2024-04-19 09:01:00
 description: how to use color 
 tags: figures
 categories: research
-featured: true
+featured: false
 ---
 
 ### General principles for using color:
