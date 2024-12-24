@@ -126,9 +126,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: Thoughts from a PhD Desk # blog_name will be displayed in your blog page
-blog_description: Thoughts from a PhD Desk
-#Tips, tools, and tales for navigating the challenges of academic research.
+blog_name: Thoughts from a PhD Desk # blog_name will be displayed in your blog page
+blog_description: Tips, tools, and tales for navigating the challenges of academic research.
 permalink: /blog/:year/:title/
 
 # Pagination
