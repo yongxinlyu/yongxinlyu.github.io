@@ -4,7 +4,7 @@ title: The One with Using Generative AI for Research
 date: 2024-06-07 09:01:00
 description: chatgpt how to 
 categories: research
-featured: true
+featured: false
 ---
 
 ### Generative AI

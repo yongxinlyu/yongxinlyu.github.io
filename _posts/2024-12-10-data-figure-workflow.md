@@ -4,7 +4,7 @@ title: Data Figure Workflow I use
 date: 2024-12-09 09:01:00
 description: on preparing data figures 
 categories: research publication figure
-featured: true
+featured: false
 ---
 
 In my last blog post, I shared some general tips for creating scientific figures that catch the eyes of high-impact journal editors. If you missed it, the takeaway was simple: avoid using PowerPoint for figures! Tools like Adobe Illustrator (if your university provides access) or the free and powerful Inkscape are much better options for creating vector-based, publication-ready visuals.
