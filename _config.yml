@@ -282,7 +282,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-#display_tags: ["figures", "AI", "coding", "writing", "productivity"] # these tags will be displayed on the front page of your blog
+display_tags: ["figures", "AI", "coding", "writing", "productivity"] # these tags will be displayed on the front page of your blog
 display_categories: ["research", "skills", "reflections", "career", "life"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
