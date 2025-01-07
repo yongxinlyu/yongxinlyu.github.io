@@ -20,11 +20,12 @@ For the most part, I've found the traditional approach works well. It's systemat
 
 ### Enter AI Tools: What Do They Actually Do?
 When it comes to AI tools for literature review, I’ve noticed they generally fall into two categories:
-1. Citation-Based Literature Mapping Tools
+
+**1. Citation-Based Literature Mapping Tools**
 
 **Examples:** Connected Papers, Litmaps, Research Rabbit, VOSviewer, Open knowledge maps
 
-These tools visualize relationships between papers based on citation networks. Start with one or more “seed” papers, and they generate a web of connected research. This makes it easy to see academic links between authors, ideas, and keywords.
+These tools visualize relationships between papers based on citation networks (they are not truly AI-driven but are often mislabeled as such). Start with one or more “seed” papers, and they generate a web of connected research. This makes it easy to see academic links between authors, ideas, and keywords.
 
 If you’ve ever tried to mentally map out “who’s citing whom” or how key ideas connect, these tools do the heavy lifting for you. 
 A particularly helpful [guide from Princeton University Library](https://libguides.princeton.edu/litmapping) explains how to approach literature mapping manually and highlights tools that automate the process.
@@ -34,7 +35,7 @@ with **Connected Papers** coming in a close second. This ranking is supported by
 
 In my experience, these tools are invaluable, particularly when working in a relatively new or interdisciplinary research area. They provide a clear, visual network of papers that helps uncover references you might have otherwise missed. Whether you’re just starting a literature review or diving into adjacent fields for inspiration, citation-based mapping tools can be a real game-changer.
 
-2. Semantics-Based Literature Searching Tools
+**2. Semantics-Based Literature Searching Tools**
 
 **Examples:** Elicit, Consensus, Scite, Perplexity
 
