@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Should I Stay in Academia? Exploring Career Paths Beyond the PhD Student
+title: Should I Stay in Academia? Exploring Career Paths Beyond PhD
 date: 2024-12-23 09:01:00
-description: Reflecting on the Final Stretch of My PhD
+description: reflecting on the final stretch of my PhD
 categories: research career 
 featured: false
 ---
