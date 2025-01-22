@@ -32,3 +32,21 @@ At the core of Seaborn’s object-oriented interface is the so.Plot object. As S
 <div class="caption">
     caption
 </div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-2.svg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    caption
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-3.svg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    caption
+</div>
