@@ -66,7 +66,7 @@ from seaborn import axes_style
     </div>
 </div>
 
-```javascript
+```python
 (
     so.Plot(data=dogs, x="avg_height", y="avg_weight", pointsize="energy_level_value")
     .add(so.Dots())
@@ -128,7 +128,7 @@ plot.save("path-to-figure.svg")
 
 Seaborn plots can be seamlessly integrated into Matplotlib figures for additional customization.
 
-```C++
+```python
 import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots(figsize=(7, 5))
