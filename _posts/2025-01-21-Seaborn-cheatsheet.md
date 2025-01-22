@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seaborn Object-Oriented Interface Cheatsheet
+title: Seaborn Objects Interface Cheatsheet
 date: 2025-01-21 09:01:00
 description: a comprehensive guide
 categories: research figure
@@ -40,7 +40,7 @@ so.Plot(data, x, y, ...).add(Mark, *Stat, *Move, ...)
 
 Here’s a breakdown:
 
-`so.Plot`: Creates the base plot object. Parameters like `data`, `x`, `y`, and `color` can be set globally or for individual layers.
+`so.Plot`: Creates the base plot object. Parameters like **data**, **x**, **y**, and **color** can be set globally or for individual layers.
 
 `.add`: Adds layers with specific visual elements (e.g., dots) and transformations (e.g., statistical summaries).
 
@@ -48,7 +48,7 @@ Here’s a breakdown:
 
 ### Examples in Action
 
-```
+```python
 import seaborn.objects as so
 from seaborn import axes_style
 
@@ -84,7 +84,7 @@ from seaborn import axes_style
 
 ### Advanced Options
 
-For more complex layouts, you can use `facets` or `pair` plots to create subplots.
+For more complex layouts, you can use `facet` or `pair` plots to create subplots.
 
 **Faceting by Category**
 ```python
@@ -136,6 +136,7 @@ plot.on(ax).plot()
 ax.set_xticks([])
 ax.set_yticks([])
 ax.set_aspect(1.0 / ax.get_data_ratio(), adjustable="box")
+
 fig.savefig("path-to-figure.svg")
 ```
 
