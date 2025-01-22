@@ -24,8 +24,8 @@ At the core of Seaborn’s object-oriented interface is the `so.Plot` object. As
 - `Move`: Modifies positional elements, such as jittering points.
 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-1.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -59,8 +59,8 @@ plot = (
 plot.show()
 ```
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -77,7 +77,7 @@ plot.show()
 ```
 
 <div class="row mt-3 justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-3.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -142,8 +142,3 @@ fig.savefig("path-to-figure.svg")
 Seaborn’s object-oriented interface empowers users to create detailed, publication-ready plots with ease. From basic designs to advanced layouts and Matplotlib integration, this cheatsheet provides a comprehensive guide to mastering the interface.
 
 For more tips on color palettes, marker styles, and additional customizations, stay tuned for my next blog post!
-
-### Further resources
-
-[Seaborn objective interface documentation](https://seaborn.pydata.org/tutorial/objects_interface.html)
-[talk from creator of seaborn](https://www.youtube.com/watch?v=JE2C1MhZO6E&list=LL&index=1)
