@@ -13,15 +13,15 @@ If you’re new to Seaborn or transitioning from its classic API, this guide wil
 
 ### How does it work?
 
-At the core of Seaborn’s object-oriented interface is the so.Plot object. As Seaborn’s creator described, the Plot function forms the foundation of the interface, supported by four key components:
+At the core of Seaborn’s object-oriented interface is the `so.Plot` object. As [Seaborn’s creator described](https://www.youtube.com/watch?v=JE2C1MhZO6E&list=LL&index=1), the Plot function forms the foundation of the interface, supported by four key components:
 
-- Mark: Defines how data points are represented (e.g., dots, bars).
+- `Mark`: Defines how data points are represented (e.g., dots, bars).
 
-- Stat: Applies statistical transformations to the data.
+- `Stat`: Applies statistical transformations to the data.
 
-- Scale: Adjusts visual aspects like color and size.
+- `Scale`: Adjusts visual aspects like color and size.
 
-- Move: Modifies positional elements, such as jittering points.
+- `Move`: Modifies positional elements, such as jittering points.
 
 
 <div class="row mt-3">
@@ -29,9 +29,7 @@ At the core of Seaborn’s object-oriented interface is the so.Plot object. As S
         {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-1.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    caption
-</div>
+
 
 Although the extensive options may seem daunting initially, the interface is designed to follow a clear hierarchy.
 
@@ -65,6 +63,7 @@ plot.show()
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-2.png" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
 
 **Example 2**
 
@@ -77,13 +76,10 @@ plot = (
 plot.show()
 ```
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-3.png" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    caption
 </div>
 
 ### Advanced Options
