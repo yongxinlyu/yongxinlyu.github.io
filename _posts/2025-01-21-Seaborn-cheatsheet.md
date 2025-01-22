@@ -33,20 +33,121 @@ At the core of Seaborn’s object-oriented interface is the so.Plot object. As S
     caption
 </div>
 
+Although the extensive options may seem daunting initially, the interface is designed to follow a clear hierarchy.
+
+```python
+# Basic Structure of a Seaborn Object-Oriented Plot
+so.Plot(data, x, y, ...).add(Mark, *Stat, *Move, ...)
+```
+
+Here’s a breakdown:
+
+`so.Plot`: Creates the base plot object. Parameters like `data`, `x`, `y`, and `color` can be set globally or for individual layers.
+
+`.add`: Adds layers with specific visual elements (e.g., dots) and transformations (e.g., statistical summaries).
+
+### Examples in Action
+**Example 1**
+```python
+import seaborn.objects as so
+from seaborn import axes_style
+
+plot = (
+    so.Plot(data=dogs, x="avg_weight", y="group", color="group")
+    .add(so.Dots())  # Layer 1: Add dots for each group
+    .add(so.Range())  # Layer 2: Add range for variability
+    .theme(axes_style("ticks"))  # Set a clean theme
+)
+plot.show()
+```
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-2.svg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+**Example 2**
+
+```python
+plot = (
+    so.Plot(data=dogs, x="avg_height", y="avg_weight", pointsize="energy_level_value")
+    .add(so.Dots())
+    .theme(axes_style("ticks"))
+)
+plot.show()
+```
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-3.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     caption
 </div>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-3.svg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    caption
-</div>
+### Advanced Options
+
+For more complex layouts, you can use `facets` or `pair` plots to create subplots.
+
+**Faceting by Category**
+```python
+plot = (
+    so.Plot(data=dogs, x="avg_weight", y="avg_height")
+    .facet(col="breed")
+    .add(so.Dots())
+)
+plot.show()
+```
+
+**Pair Plot Across Variables**
+```python
+plot = (
+    so.Plot(data=dogs)
+    .pair(x=["labrador", "golden_retriever"], cross=True)
+    .add(so.Dots())
+)
+plot.show()
+```
+
+### Customizing Appearance
+
+Seaborn’s object-oriented interface allows fine-tuned control over plot aesthetics.
+
+```python
+plot = (
+    so.Plot(data=dogs, x="avg_weight", y="avg_height")
+    .scale(color={"value": "black"}, marker={True: "o", False: "x"})
+    .layout(size=(7, 5))
+    .limit(x=(0, 1), y=(0, None))
+    .label(x="Weight (kg)", y="Height (cm)", title="Dog Statistics")
+    .theme(axes_style("ticks"))
+)
+plot.save("path-to-figure.svg")
+```
+
+### Integration with Matplotlib
+
+Seaborn plots can be seamlessly integrated into Matplotlib figures for additional customization.
+
+```python
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(7, 5))
+plot.on(ax).plot()
+ax.set_xticks([])
+ax.set_yticks([])
+ax.set_aspect(1.0 / ax.get_data_ratio(), adjustable="box")
+fig.savefig("path-to-figure.svg")
+```
+
+### Final Thoughts
+
+Seaborn’s object-oriented interface empowers users to create detailed, publication-ready plots with ease. From basic designs to advanced layouts and Matplotlib integration, this cheatsheet provides a comprehensive guide to mastering the interface.
+
+For more tips on color palettes, marker styles, and additional customizations, stay tuned for my next blog post!
+
+### Further resources
+
+[Seaborn objective interface documentation](https://seaborn.pydata.org/tutorial/objects_interface.html)
+[talk from creator of seaborn](https://www.youtube.com/watch?v=JE2C1MhZO6E&list=LL&index=1)
