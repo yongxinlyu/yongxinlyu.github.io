@@ -15,13 +15,13 @@ If you’re new to Seaborn or transitioning from its classic API, this guide wil
 
 At the core of Seaborn’s object-oriented interface is the `so.Plot` object. As [Seaborn’s creator described](https://www.youtube.com/watch?v=JE2C1MhZO6E&list=LL&index=1), the Plot function forms the foundation of the interface, supported by four key components:
 
-- `Mark`: Defines how data points are represented (e.g., dots, bars).
+- **Mark**: Defines how data points are represented (e.g., dots, bars).
 
-- `Stat`: Applies statistical transformations to the data.
+- **Stat**: Applies statistical transformations to the data.
 
-- `Scale`: Adjusts visual aspects like color and size.
+- **Scale**: Adjusts visual aspects like color and size.
 
-- `Move`: Modifies positional elements, such as jittering points.
+- **Move**: Modifies positional elements, such as jittering points.
 
 
 <div class="row mt-3 justify-content-center">
@@ -48,9 +48,7 @@ Here’s a breakdown:
 
 ### Examples in Action
 
-**Example 1**
-
-```python
+```
 import seaborn.objects as so
 from seaborn import axes_style
 
@@ -68,9 +66,7 @@ from seaborn import axes_style
     </div>
 </div>
 
-**Example 2**
-
-```python
+```javascript
 (
     so.Plot(data=dogs, x="avg_height", y="avg_weight", pointsize="energy_level_value")
     .add(so.Dots())
@@ -132,7 +128,7 @@ plot.save("path-to-figure.svg")
 
 Seaborn plots can be seamlessly integrated into Matplotlib figures for additional customization.
 
-```
+```C++
 import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots(figsize=(7, 5))
