@@ -47,18 +47,19 @@ Here’s a breakdown:
 ---
 
 ### Examples in Action
+
 **Example 1**
+
 ```python
 import seaborn.objects as so
 from seaborn import axes_style
 
-plot = (
+(
     so.Plot(data=dogs, x="avg_weight", y="group", color="group")
     .add(so.Dots())  # Layer 1: Add dots for each group
     .add(so.Range())  # Layer 2: Add range for variability
     .theme(axes_style("ticks"))  # Set a clean theme
 )
-plot.show()
 ```
 
 <div class="row mt-3 justify-content-center">
@@ -70,12 +71,11 @@ plot.show()
 **Example 2**
 
 ```python
-plot = (
+(
     so.Plot(data=dogs, x="avg_height", y="avg_weight", pointsize="energy_level_value")
     .add(so.Dots())
     .theme(axes_style("ticks"))
 )
-plot.show()
 ```
 
 <div class="row mt-3 justify-content-center">
@@ -92,22 +92,20 @@ For more complex layouts, you can use `facets` or `pair` plots to create subplot
 
 **Faceting by Category**
 ```python
-plot = (
+(
     so.Plot(data=dogs, x="avg_weight", y="avg_height")
     .facet(col="breed")
     .add(so.Dots())
 )
-plot.show()
 ```
 
 **Pair Plot Across Variables**
 ```python
-plot = (
+(
     so.Plot(data=dogs)
     .pair(x=["labrador", "golden_retriever"], cross=True)
     .add(so.Dots())
 )
-plot.show()
 ```
 
 ---
@@ -134,7 +132,7 @@ plot.save("path-to-figure.svg")
 
 Seaborn plots can be seamlessly integrated into Matplotlib figures for additional customization.
 
-```python
+```
 import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots(figsize=(7, 5))
