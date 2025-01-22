@@ -44,6 +44,8 @@ Here’s a breakdown:
 
 `.add`: Adds layers with specific visual elements (e.g., dots) and transformations (e.g., statistical summaries).
 
+---
+
 ### Examples in Action
 **Example 1**
 ```python
@@ -82,6 +84,8 @@ plot.show()
     </div>
 </div>
 
+---
+
 ### Advanced Options
 
 For more complex layouts, you can use `facets` or `pair` plots to create subplots.
@@ -106,6 +110,8 @@ plot = (
 plot.show()
 ```
 
+---
+
 ### Customizing Appearance
 
 Seaborn’s object-oriented interface allows fine-tuned control over plot aesthetics.
@@ -122,6 +128,8 @@ plot = (
 plot.save("path-to-figure.svg")
 ```
 
+---
+
 ### Integration with Matplotlib
 
 Seaborn plots can be seamlessly integrated into Matplotlib figures for additional customization.
@@ -136,6 +144,8 @@ ax.set_yticks([])
 ax.set_aspect(1.0 / ax.get_data_ratio(), adjustable="box")
 fig.savefig("path-to-figure.svg")
 ```
+
+---
 
 ### Final Thoughts
 
