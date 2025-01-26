@@ -7,13 +7,19 @@ categories: research figure
 featured: false
 ---
 
-Seaborn has long been a favorite among Python users for creating stunning visualizations. With the release of Seaborn 0.12.0 in September 2022, the library introduced a new object-oriented interface that brings unparalleled flexibility and customization to plotting. While the [official documentation](https://seaborn.pydata.org/tutorial/objects_interface.html) is thorough, this blog serves as a practical cheatsheet, highlighting my experience using the interface to craft publication-quality figures.
+Seaborn has long been a favorite among Python users for creating stunning visualizations. With the release of Seaborn 0.12.0 in September 2022, the library introduced a new objects interface that brings unparalleled flexibility and customization to plotting. While the [official documentation](https://seaborn.pydata.org/tutorial/objects_interface.html) is thorough, this blog serves as a practical cheatsheet, highlighting my experience using the interface to craft publication-quality figures.
 
 If you’re new to Seaborn or transitioning from its classic API, this guide will help you confidently create beautiful, professional-grade plots.
 
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet.pdf" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ### How does it work?
 
-At the core of Seaborn’s object-oriented interface is the `so.Plot` object. As [Seaborn’s creator described](https://www.youtube.com/watch?v=JE2C1MhZO6E&list=LL&index=1), the Plot function forms the foundation of the interface, supported by four key components:
+At the core of Seaborn’s objects interface is the `so.Plot` object. As [Seaborn’s creator described](https://www.youtube.com/watch?v=JE2C1MhZO6E&list=LL&index=1), the Plot function forms the foundation of the interface, supported by four key components:
 
 - **Mark**: Defines how data points are represented (e.g., dots, bars).
 
@@ -34,7 +40,7 @@ At the core of Seaborn’s object-oriented interface is the `so.Plot` object. As
 Although the extensive options may seem daunting initially, the interface is designed to follow a clear hierarchy.
 
 ```python
-# Basic Structure of a Seaborn Object-Oriented Plot
+# Basic Structure of a Seaborn Objects Plot
 so.Plot(data, x, y, ...).add(Mark, *Stat, *Move, ...)
 ```
 
@@ -108,7 +114,7 @@ For more complex layouts, you can use `facet` or `pair` plots to create subplots
 
 ### Customizing Appearance
 
-Seaborn’s object-oriented interface allows fine-tuned control over plot aesthetics.
+Seaborn’s objects interface allows fine-tuned control over plot aesthetics.
 
 ```python
 plot = (
@@ -144,6 +150,6 @@ fig.savefig("path-to-figure.svg")
 
 ### Final Thoughts
 
-Seaborn’s object-oriented interface empowers users to create detailed, publication-ready plots with ease. From basic designs to advanced layouts and Matplotlib integration, this cheatsheet provides a comprehensive guide to mastering the interface.
+Seaborn’s objects interface empowers users to create detailed, publication-ready plots with ease. From basic designs to advanced layouts and Matplotlib integration, this cheatsheet provides a comprehensive guide to mastering the interface.
 
 For more tips on color palettes, marker styles, and additional customizations, stay tuned for my next blog post!
