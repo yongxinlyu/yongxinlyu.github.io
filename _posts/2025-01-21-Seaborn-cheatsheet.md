@@ -29,14 +29,6 @@ At the core of Seaborn’s objects interface is the `so.Plot` object. As [Seabor
 
 - **Move**: Modifies positional elements, such as jittering points.
 
-
-<div class="row mt-3 justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog-figure/seaborn-cheatsheet-1.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
 Although the extensive options may seem daunting initially, the interface is designed to follow a clear hierarchy.
 
 ```python
