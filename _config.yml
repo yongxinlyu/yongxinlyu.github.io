@@ -126,8 +126,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Thoughts from a PhD Desk # blog_name will be displayed in your blog page
-blog_description: Tips, tools, and tales for navigating the challenges of academic research.
+blog_name: Posts # blog_name will be displayed in your blog page
+blog_description: Thoughts from a PhD Desk
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -282,8 +282,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["figures", "AI", "coding", "writing", "productivity"] # these tags will be displayed on the front page of your blog
-display_categories: ["research", "skills", "reflections", "career", "life"] # these categories will be displayed on the front page of your blog
+display_tags: ["figures", "AI",] # these tags will be displayed on the front page of your blog
+display_categories: ["research", "reflections", "career"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
