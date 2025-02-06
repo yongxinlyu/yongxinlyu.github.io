@@ -7,9 +7,9 @@ categories: research figure
 featured: false
 ---
 
-If you’ve ever spent hours fiddling with colour palettes in your figures (only to end up frustrated), you’re not alone. We often see gorgeous figures in journals like Nature or Science, but getting your own colour scheme to look equally polished can feel like an impossible task.
+If you’ve ever spent hours fiddling with colour palettes in your figures (only to end up frustrated), you’re not alone. We often see gorgeous figures in journals like *Nature* or *Science*, but getting your own colour scheme to look equally polished can feel like an impossible task.
 
-The truth is, with colour choices practically limitless these days, it’s really easy to go overboard. The result? Overly busy figures that confuse your readers more than they help them. Today, I want to take you on a quick tour of colour theory and show you how to use it in your scientific plots—without driving yourself (or your audience) up the wall. While I mainly use Seaborn for my visualizations, the same ideas apply no matter which plotting tool you prefer. I’ve also put together a handy cheatsheet of commonly used palettes (with real data examples) if you need some inspiration or just want to pick your colours quickly.
+The truth is, with colour choices practically limitless these days, it’s *really* easy to go overboard. The result? Overly busy figures that confuse your readers more than they help them. Today, I want to take you on a quick tour of colour theory and show you how to use it in your scientific plots—without driving yourself (or your audience) up the wall. While I mainly use Seaborn for my visualizations, the same ideas apply no matter which plotting tool you prefer. I’ve also put together a handy **cheatsheet** of commonly used palettes (with real data examples) if you need some inspiration or just want to pick your colours quickly.
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
