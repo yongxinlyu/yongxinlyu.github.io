@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Color Choices in Scientific Plots
+title: Colour Choices in Scientific Plots
 date: 2025-02-04 09:01:00
 description: how to choose palettes that work
 categories: research figure
@@ -30,13 +30,13 @@ This concept is well explained by this excellent illustration from Nature Method
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog-figure/color-theory.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/color-theory.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 Keeping these in mind can make a world of difference. Adjusting hue, saturation, and lightness thoughtfully ensures your plot conveys exactly what you want it to—especially for categorical versus continuous data.
 
-### Qualitative Color Palettes (For Categorical Data)
+### Qualitative Colour Palettes (For Categorical Data)
 When you have distinct categories (e.g., different experimental groups or species), you want each category to stand out. These palettes primarily vary in **hue**, with slight adjustments in saturation and lightness for better aesthetics. That usually means picking colours that are separated on the colour wheel—like blue and orange (opposite each other).
 
 Most off-the-shelf palettes, like Tableau, Seaborn, or [ColorBrewer](https://colorbrewer2.org/), come with around ten colours. For many projects, that’s plenty. My personal favourite is Seaborn’s default palette, called `deep` (see figure below), which looks professional and generally offers enough contrast to separate categories. If you have trouble distinguishing some of the hues, or if you’re concerned about colour blindness, Seaborn’s `colorblind` palette is a great alternative.
@@ -55,7 +55,7 @@ But what if you have more than 10 categories? That’s when something like `husl
     </div>
 </div>
 
-### Sequential Color Palettes (For Continuous Data)
+### Sequential Colour Palettes (For Continuous Data)
 
 If your data run from low to high (like concentrations, counts, or intensities), a sequential colour palette is your friend. These palettes mostly vary by **lightness**, sometimes with subtle hue changes to help our eyes pick up on small differences. 
 
@@ -75,7 +75,7 @@ To avoid these issues, you might try a “perceptually uniform” palette, which
     </div>
 </div>
 
-### Diverging Color Palettes (For Values Above and Below a Midpoint)
+### Diverging Colour Palettes (For Values Above and Below a Midpoint)
 
 Diverging palettes essentially combine two sequential colour ramps around a middle value, which can be really handy if you’ve got data centered on a crucial midpoint (like zero, with both negative and positive values).
 
