@@ -94,7 +94,6 @@ My personal go-to for this scenario is the `BrBG` palette (brown to blue-green).
 
 Choosing colours for scientific plots is as much an art as it is a science. Even after learning so much about colour theory, I still find myself relying on Seaborn’s well-designed default palettes in most of my research papers—they just work.
 
-If you’re interested in a deeper dive into colour selection, I highly recommend these excellent posts by [Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) and [Matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html) on using colour effectively in data visualization. For a more comprehensive discussion on scientific plotting principles, the [Nature Methods post](https://www.nature.com/articles/nmeth0810-573) a also a great resource.
-
+If you’re interested in a deeper dive into colour selection, I highly recommend these excellent posts by [Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) and [Matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html) on using colour effectively in data visualization. For a broader discussion on scientific plotting, Nature Methods published a fantastic [Points of View series](https://communities.springernature.com/posts/data-visualization-a-view-of-every-points-of-view-column) in 2013, written by Bang Wong and co-authors, covering key principles of data visualization.
 Happy plotting!
 
