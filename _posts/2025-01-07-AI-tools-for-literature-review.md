@@ -3,7 +3,8 @@ layout: post
 title: AI Tools for Literature Review
 date: 2025-01-06 09:01:00
 description: separating hype from reality
-categories: research AI 
+categories: research
+tags: AI
 featured: false
 ---
 

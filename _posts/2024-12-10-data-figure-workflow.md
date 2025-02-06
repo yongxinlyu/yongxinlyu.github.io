@@ -3,7 +3,8 @@ layout: post
 title: Data Figure Workflow I use
 date: 2024-12-09 09:01:00
 description: on preparing data figures 
-categories: research publication figure
+categories: research
+tags: figures
 featured: false
 ---
 
