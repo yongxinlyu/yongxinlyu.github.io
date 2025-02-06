@@ -19,7 +19,7 @@ The truth is, with colour choices practically limitless these days, it’s *real
 
 ### A Quick Colour Theory Refresher
 
-Even if you’re not a design guru, you’ve probably heard of the **RGB** system—-red, green, and blue—the primary colours on your computer screen. But the way we perceive colour is actually a bit different. We tend to notice three main components:
+Even if you’re not a design guru, you’ve probably heard of the **RGB** system—red, green, and blue—the primary colours on your computer screen. But the way we perceive colour is actually a bit different. We tend to notice three main components:
 
 - **Hue**: The name of the colour itself (red, green, blue, etc.).
 - **Saturation**: How vibrant or “washed out” the colour appears. Think of it as bold vs. greyed-out.
