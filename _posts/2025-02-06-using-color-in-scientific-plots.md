@@ -26,12 +26,20 @@ Even if you’re not a design guru, you’ve probably heard of the **RGB** syste
 
 - **Lightness**: How bright or dark a colour is, from black to white.
 
+This concept is well explained by this excellent illustration from Nature Methods [post](https://www.nature.com/articles/nmeth0810-573).
+
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/color-theory.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 Keeping these in mind can make a world of difference. Adjusting hue, saturation, and lightness thoughtfully ensures your plot conveys exactly what you want it to—especially for categorical versus continuous data.
 
 ### Qualitative Colour Palettes (For Categorical Data)
-When you have distinct categories (e.g., different experimental groups or species), you want each category to stand out. These palettes primarily vary in hue, with slight adjustments in saturation and lightness for better aesthetics. That usually means picking colours that are separated on the colour wheel—like blue and orange (opposite each other).
+When you have distinct categories (e.g., different experimental groups or species), you want each category to stand out. These palettes primarily vary in **hue**, with slight adjustments in saturation and lightness for better aesthetics. That usually means picking colours that are separated on the colour wheel—like blue and orange (opposite each other).
 
-Most off-the-shelf palettes, like Tableau, Seaborn, or ColorBrewer, come with around ten colours. For many projects, that’s plenty. My personal favourite is Seaborn’s default palette, called `deep` (see figure below), which looks professional and generally offers enough contrast to separate categories. If you have trouble distinguishing some of the hues, or if you’re concerned about colour blindness, Seaborn’s `colorblind` palette is a great alternative.
+Most off-the-shelf palettes, like Tableau, Seaborn, or [ColorBrewer](https://colorbrewer2.org/), come with around ten colours. For many projects, that’s plenty. My personal favourite is Seaborn’s default palette, called `deep` (see figure below), which looks professional and generally offers enough contrast to separate categories. If you have trouble distinguishing some of the hues, or if you’re concerned about colour blindness, Seaborn’s `colorblind` palette is a great alternative.
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -73,7 +81,7 @@ Diverging palettes essentially combine two sequential colour ramps around a midd
 
 In scientific plotting, one of the most common use cases for a diverging palette is a correlation heatmap, where values can range from -1 to 1. Strong correlations (either positive or negative) will appear bold at either end of the colour scale, while near-zero correlations fade into the middle.
 
-My personal go-to for this scenario is the **BrBG** palette (brown to blue-green). It feels natural and provides good contrast for highlighting strong negative and strong positive values.
+My personal go-to for this scenario is the `BrBG` palette (brown to blue-green). It feels natural and provides good contrast for highlighting strong negative and strong positive values.
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -84,8 +92,9 @@ My personal go-to for this scenario is the **BrBG** palette (brown to blue-green
 
 ### Final Thoughts
 
-Choosing colours for your plots is as much an art form as it is a science. But if you keep in mind a few simple principles—vary hue for categories, adjust lightness (and sometimes hue) for continuous data, and use two contrasting colours for diverging data around a midpoint—you’ll be well on your way to creating clean, readable plots.
+Choosing colours for scientific plots is as much an art as it is a science. Even after learning so much about colour theory, I still find myself relying on Seaborn’s well-designed default palettes in most of my research papers—they just work.
 
-Don’t forget to check out the cheatsheet I’ve put together if you’re looking for ready-made palettes—or just want to see some examples in action. Above all, remember that your goal is clarity: help your readers focus on what matters, not on a rainbow of confusion.
+If you’re interested in a deeper dive into colour selection, I highly recommend these excellent posts by [Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) and [Matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html) on using colour effectively in data visualization. For a more comprehensive discussion on scientific plotting principles, the [Nature Methods post](https://www.nature.com/articles/nmeth0810-573) a also a great resource.
 
 Happy plotting!
+
