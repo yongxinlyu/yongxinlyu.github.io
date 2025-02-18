@@ -57,17 +57,10 @@ That said, AI can be a fantastic tool for improving clarity and coherence. It sp
 
 ### My Key Takeaways for Using AI in Academic Writing
 
-1. Don’t Be Afraid to Revise Multiple Times
+1. **Don’t Be Afraid to Revise Multiple Times.** A friend in computer science gave me great advice: *Treat ChatGPT like a human assistant.* Don’t accept its first draft—keep iterating until you get something useful.
 
-A friend in computer science gave me great advice: *Treat ChatGPT like a human assistant.* Don’t accept its first draft—keep iterating until you get something useful.
-
-
-2. Master the Art of Prompting
-
-Better prompts lead to better results. Be specific. 
-
+2. **Master the Art of Prompting.** Better prompts lead to better results. Be specific. 
 Instead of *“Summarize my thesis chapter,”* try *“Summarize the key findings of my thesis chapter on [topic] in a structured, concise manner.”* 
-
 If writing a figure caption, don’t just ask *“Write a caption for this figure”*—be precise: *“Write a Nature-style caption explaining the key results and their significance in materials science.”*
 
 ### So, Does ChatGPT Help?
