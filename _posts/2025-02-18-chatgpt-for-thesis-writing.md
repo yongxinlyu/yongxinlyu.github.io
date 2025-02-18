@@ -8,7 +8,7 @@ tags: AI
 featured: false
 ---
 
-I’ve been using AI tools since the early days of ChatGPT. It’s become a staple in my workflow—replying to emails, revising my blog posts (yes, I asked ChatGPT to rewrite this in Thesis Whisperer style), and occasionally assisting with academic writing.
+I’ve been using AI tools since the early days of ChatGPT. It’s become a staple in my workflow—replying to emails, revising my blog posts (yes, I asked ChatGPT to rewrite this in [Thesis Whisperer](https://thesiswhisperer.com) style), and occasionally assisting with academic writing.
 
 Lately, I’ve been knee-deep in writing my thesis. Naturally, I was curious about whether AI could speed up the process. A quick search led me to videos boasting claims like “Write Your Thesis in an Hour with ChatGPT!” Intrigued, I decided to put this to the test with my literature review chapter. Spoiler: it didn’t quite work out that way. Here’s my experience—what ChatGPT can and can’t do, and what I found most frustrating.
 
