@@ -40,21 +40,14 @@ I was lucky—my husband was finishing his thesis at the same time. We became ea
 
 Our daily routine?
 
-•	Arrive at the library around 8:30 AM
-
-•	Write, write, write
-
-•	Quick lunch on campus
-
-•	Write, write, write
-
-•	Coffee + a short campus stroll
-
-•	Write, write, write
-
-•	Go home, cook dinner
-
-•	Maybe write a little more in the evening
+- Arrive at the library around 8:30 AM
+- Write, write, write
+- Quick lunch on campus
+- Write, write, write
+- Coffee + a short campus stroll
+- Write, write, write
+- Go home, cook dinner
+- Maybe write a little more in the evening
 
 It wasn’t glamorous, but it worked.
 
@@ -96,7 +89,7 @@ No dramatic emotional release. No fireworks. Just me, staring at my screen, wond
 
 Maybe it will sink in later—maybe when my thesis passes the examination. We’ll see.
 
-### No, Writing a Thesis is Not the Worst Part of a PhD.
+### Why Thesis Writing Was Weirdly… Peaceful?
 
 Here’s my take: thesis writing wasn’t actually *that* bad.
 
@@ -110,10 +103,12 @@ So, weirdly enough, thesis writing felt… peaceful. No emotional rollercoaster,
 
 ### Final Advice? Trust the process
 
-If I could give one piece of advice to anyone about to start writing their thesis, it would be this:
+If I could go back in time and give myself one piece of advice before writing my thesis, it would be this:
 
 **It’s not as big of a deal as you think.**
 
-Everyone finishes. *You* will finish. Trust the process. The hardest part is deciding when to start and dealing with the self-doubt, but once you do, it’s smoother and easier than you expect.
+Everyone finishes. *You* will finish.
+
+Trust the process. The hardest part is deciding when to start and pushing through self-doubt, but once you do, it’s smoother and easier than you expect.
 
 And when you finally hit ‘submit’? Don’t expect fireworks. Expect to go make a cup of tea and wonder what just happened.
