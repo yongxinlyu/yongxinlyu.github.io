@@ -2,7 +2,7 @@
 layout: post
 title: The Thesis Writing Journey
 date: 2025-02-18 09:01:00
-description: panic, coffee, and avoiding people
+description: Turns out, it wasn’t that bad.
 categories: research
 #tags: AI
 featured: false
