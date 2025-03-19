@@ -16,6 +16,15 @@ I’m hoping to upgrade after I finish this research project (because setting up
 
 This blog is a tour of my digital lab—my MacBook—the apps I live in, and where I actually spend my time whenever I sit at my desk.
 
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/macbook-abstract.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A fun illustration of my PhD MacBook as a miniature research lab, brought to life with the help of ChatGPT.
+</div>
+
 ---
 
 ### 1. Coding & Data Analysis: Where the Magic (or Madness) Happens
