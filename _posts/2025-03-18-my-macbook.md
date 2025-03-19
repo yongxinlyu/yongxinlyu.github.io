@@ -36,7 +36,7 @@ My research relies heavily on simulations—which means **a LOT of coding, data 
 
 - **Terminal** – A portal to the **supercomputer** where I run my simulations. The macOS default app is simple, clean, and makes me feel like I’m hacking into NASA. (In reality, I’m just running jobs and waiting… a lot of waiting.)
 
-- **VS Code** – My ultimate coding playground.  I live inside **Jupyter Notebooks** for scripting, data analysis, and figure plotting. I’ve tried many ways to host Jupyter but finally settled on VS Code—it has everything in one place. **Bonus:** You can keep **virtual pets** inside VS Code. Also, there’s a Buggo Cat that types when I type. 10/10 feature.
+- **VS Code** – My ultimate coding playground.  I live inside **Jupyter Notebooks** for scripting, data analysis, and figure plotting. I’ve tried many ways to host Jupyter but finally settled on VS Code—it has everything in one place. **Bonus:** You can keep **virtual pets** inside VS Code. Also, there’s a Bongo Cat that bongos when I type. 10/10 feature.
 
 ---
 
