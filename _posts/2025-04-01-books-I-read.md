@@ -52,7 +52,7 @@ These self-help books have shaped how I write, present, and think as a researche
 Written by the Thesis Whisperer herself! A smart, funny, and highly relatable book for anyone deep in the PhD grind.
 - **Success and Creativity in Scientific Research** -- *David S. Sholl*
 - **Designing Science Presentations** -- *Matt Carter*.
-- **Storytelling With Data** -- *cole nussbaumer knaflic*
+- **Storytelling With Data** -- *cole nussbaumer knaflic*.
 
 ### Memoirs I loved
 
