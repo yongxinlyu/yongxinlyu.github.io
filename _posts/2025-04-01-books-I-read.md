@@ -18,17 +18,13 @@ Since submitting my thesis, I’ve been trying to back into my reading habit. It
 
 ### How I Read
 
-I rarely read physical books. Not because I dislike them—on the contrary, I *love* the feel of paper—but mostly because:
-
-1.	They’re expensive.
-
-2.	I can never commit to just one book at a time.
+I rarely read physical books. Not because I dislike them—on the contrary, I *love* the feel of paper—but mostly because: They’re expensive; I can never commit to just one book at a time.
 
 I tend to jump between several books, and I often abandon them halfway through. Some of the physical books I bought years ago are still sitting on my shelf, untouched beyond chapter three.
 
-For convenience, I’ve switched to reading ebooks. I started with Google Play Books, which I used for three years. It had a lovely page-flipping animation that made digital reading feel tactile, almost like the real thing. More recently, I moved to Apple’s Books app because it syncs better across all my devices. It makes picking up where I left off—whether on the couch or the train—effortless.
+For convenience, I’ve switched to reading ebooks. I started with **Google Play Books**, which I used for three years. It had a lovely page-flipping animation that made digital reading feel tactile, almost like the real thing. More recently, I moved to **Apple’s Books app** because it syncs better across all my devices. It makes picking up where I left off—whether on the couch or the train—effortless.
 
-As for where I get my books… I don’t usually buy them. I use [Anna’s Archive](https://annas-archive.org/), which is basically the Sci-Hub of books. I download EPUB files and import them into the Books app. It’s saved me a lot of money and made spontaneous reading a whole lot easier.
+As for where I get my books… I don’t usually buy them. I use [Anna’s Archive](https://annas-archive.org/), which is basically the **Sci-Hub of books**. I download EPUB files and import them into the Books app. It’s saved me a lot of money and made spontaneous reading a whole lot easier.
 
 ### What I Read
 
@@ -40,31 +36,29 @@ That changed during my MPhil. I started spending time at Eslite bookstore in Har
 
 That was the start of my reading habit.
 
-At first, I gravitated toward self-help books—especially when I needed advice but didn’t know who to turn to. During my PhD, these books were like quiet mentors: practical, comforting, and always available at 2am.
+At first, I gravitated toward **self-help books**—especially when I needed advice but didn’t know who to turn to. During my PhD, these books were like quiet mentors: practical, comforting, and always available at 2am.
 
 Lately, I’ve been venturing into other genres. I noticed that many of my friends read fiction, so I gave it a try. It didn’t quite stick. But then I stumbled across **memoirs**—and got hooked.
 
 Memoirs are like fiction, but better (for me, anyway). They’re real. They’re messy. They’re full of raw emotion and complex decisions. Reading memoirs feels like stepping into another version of my life—what it might have looked like, for better or worse. I’m obsessed.
 
-**Research & Academic Reads**
+### Research & Academic Reads
 
-These books have shaped how I write, present, and think as a researcher:
+These self-help books have shaped how I write, present, and think as a researcher:
 
-- **A PhD Is Not Enough** -- *Peter J. Peibelman*.
-- **Designing Science Presentations** -- *Matt Carter*.
-- **How to Tame Your PhD** -- *Inger Newburn*. Written by the Thesis Whisperer herself! A smart, funny, and highly relatable book for anyone deep in the PhD grind.
 - **The Craft of Research** -- *Wayne C. Booth*. A definite classic—now in its fifth edition. This book saved me when I was struggling with writing my first manuscript during my PhD.
+- **A PhD Is Not Enough** -- *Peter J. Peibelman*.
+- **How to Tame Your PhD** -- *Inger Newburn*. 
+Written by the Thesis Whisperer herself! A smart, funny, and highly relatable book for anyone deep in the PhD grind.
 - **Success and Creativity in Scientific Research** -- *David S. Sholl*
+- **Designing Science Presentations** -- *Matt Carter*.
 - **Storytelling With Data** -- *cole nussbaumer knaflic*
 
-**Memoirs I loved**
-
-
+### Memoirs I loved
 
 - **Crying in H Mart** -- *Michelle Zauner*. A deeply moving memoir about food, grief, and Korean-American identity. I was surprised to learn Michelle Zauner is also a musician. Her band, *Japanese Breakfast*, is incredible. I had been obsessed with the song *Kokomo, IN* before realising it was *her*.
 - **Tuesdays with Morrie** -- *Mitch Albom*. A touching series of conversations between a former student and his dying professor, reflecting on life, aging, and what really matters. I read it five years ago, but it still sticks with me.
-- **Careless people**: a story of where I used to work -- *Sarah Wynn-Williams*. A behind-the-scenes look at Facebook and the high-pressure tech world. Equal parts revealing and reflective.
-- **The house of my mother** -- *Shari Franke*.
+- **Careless People: A Story of Where I Used to Work** -- *Sarah Wynn-Williams*. A behind-the-scenes look at Facebook and the high-pressure tech world. Equal parts revealing and reflective.
 
 ### Final Thoughts
 
