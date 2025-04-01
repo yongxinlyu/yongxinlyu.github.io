@@ -8,6 +8,12 @@ categories: life
 featured: false
 ---
 
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/books.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 Since submitting my thesis, I’ve been trying to back into my reading habit. It feels like a luxury now—to pick up a book without feeling guilty about unfinished simulation or deadlines! So for today’s blog, I thought I’d share a few books I’ve read (and actually finished!) over the past few years.
 
 ### How I Read
@@ -44,12 +50,6 @@ Memoirs are like fiction, but better (for me, anyway). They’re real. They’re
 
 These books have shaped how I write, present, and think as a researcher:
 
-<div class="row mt-3 justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog-figure/books-self-help.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 - **A PhD Is Not Enough** -- *Peter J. Peibelman*.
 - **Designing Science Presentations** -- *Matt Carter*.
 - **How to Tame Your PhD** -- *Inger Newburn*. Written by the Thesis Whisperer herself! A smart, funny, and highly relatable book for anyone deep in the PhD grind.
@@ -59,11 +59,7 @@ These books have shaped how I write, present, and think as a researcher:
 
 **Memoirs I loved**
 
-<div class="row mt-3 justify-content-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog-figure/books-memoir.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 
 - **Crying in H Mart** -- *Michelle Zauner*. A deeply moving memoir about food, grief, and Korean-American identity. I was surprised to learn Michelle Zauner is also a musician. Her band, *Japanese Breakfast*, is incredible. I had been obsessed with the song *Kokomo, IN* before realising it was *her*.
 - **Tuesdays with Morrie** -- *Mitch Albom*. A touching series of conversations between a former student and his dying professor, reflecting on life, aging, and what really matters. I read it five years ago, but it still sticks with me.
