@@ -44,18 +44,30 @@ Memoirs are like fiction, but better (for me, anyway). They’re real. They’re
 
 These books have shaped how I write, present, and think as a researcher:
 
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/books-self-help.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 - **A PhD Is Not Enough** -- *Peter J. Peibelman*.
 - **Designing Science Presentations** -- *Matt Carter*.
 - **How to Tame Your PhD** -- *Inger Newburn*. Written by the Thesis Whisperer herself! A smart, funny, and highly relatable book for anyone deep in the PhD grind.
-- **The Craft of Research** by Wayne C. Booth. A definite classic—now in its fifth edition. This book saved me when I was struggling with writing my first manuscript during my PhD.
-- **Success and Creativity in Scientific Research** by David S. Sholl
-- **Storytelling With Data** by cole nussbaumer knaflic
+- **The Craft of Research** -- *Wayne C. Booth*. A definite classic—now in its fifth edition. This book saved me when I was struggling with writing my first manuscript during my PhD.
+- **Success and Creativity in Scientific Research** -- *David S. Sholl*
+- **Storytelling With Data** -- *cole nussbaumer knaflic*
 
 **Memoirs I loved**
 
-- **Crying in H Mart** - *Michelle Zauner*. A deeply moving memoir about food, grief, and Korean-American identity. I was surprised to learn Michelle Zauner is also a musician. Her band, *Japanese Breakfast*, is incredible. I had been obsessed with the song *Kokomo, IN* before realising it was *her*.
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/books-memoir.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+- **Crying in H Mart** -- *Michelle Zauner*. A deeply moving memoir about food, grief, and Korean-American identity. I was surprised to learn Michelle Zauner is also a musician. Her band, *Japanese Breakfast*, is incredible. I had been obsessed with the song *Kokomo, IN* before realising it was *her*.
 - **Tuesdays with Morrie** -- *Mitch Albom*. A touching series of conversations between a former student and his dying professor, reflecting on life, aging, and what really matters. I read it five years ago, but it still sticks with me.
-- **Careless people: a story of where I used to work** -- *Sarah Wynn-Williams*. A behind-the-scenes look at Facebook and the high-pressure tech world. Equal parts revealing and reflective.
+- **Careless people**: a story of where I used to work -- *Sarah Wynn-Williams*. A behind-the-scenes look at Facebook and the high-pressure tech world. Equal parts revealing and reflective.
 - **The house of my mother** -- *Shari Franke*.
 
 ### Final Thoughts
