@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Books I've Been Reading
-date: 2025-04-01 09:01:00
+date: 2025-04-01 00:01:00
 description: a list of PhD survival guides and memoirs
 categories: life
 #tags: AI
@@ -44,12 +44,12 @@ Memoirs are like fiction, but better (for me, anyway). They’re real. They’re
 
 These books have shaped how I write, present, and think as a researcher:
 
-- A PhD is not enough by Peter J. Peibelman.
-- Designing Science presentations by Matt Carter
-- How to tame your PhD by Inger Newburn. Written by the Thesis Whisperer herself! A smart, funny, and highly relatable book for anyone deep in the PhD grind.
-- The craft of research by Wayne C. Booth. A definite classic—now in its fifth edition. This book saved me when I was struggling with writing my first manuscript during my PhD.
-- Success and creativity in Scientific Research by David S. Sholl
-- Storytelling with data by cole nussbaumer knaflic
+- **A PhD Is Not Enough** -- *Peter J. Peibelman*.
+- **Designing Science Presentations** -- *Matt Carter*.
+- **How to Tame Your PhD** -- *Inger Newburn*. Written by the Thesis Whisperer herself! A smart, funny, and highly relatable book for anyone deep in the PhD grind.
+- **The Craft of Research** by Wayne C. Booth. A definite classic—now in its fifth edition. This book saved me when I was struggling with writing my first manuscript during my PhD.
+- **Success and Creativity in Scientific Research** by David S. Sholl
+- **Storytelling With Data** by cole nussbaumer knaflic
 
 **Memoirs I loved**
 
