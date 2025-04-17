@@ -8,9 +8,9 @@ categories: life
 featured: false
 ---
 
-Mornings in our household are often a rush. My husband is also my breakfast partner, and we both have hectic schedules. Neither of us likes to spend too much time preparing breakfast, and options outside are usually disappointing—pastries are too sweet, and bacon-and-egg rolls are often too salty or greasy.
+Mornings in our household are often a rush. My husband is also my breakfast partner, and neither of us likes to spend too much time preparing breakfast, and options outside are usually disappointing—pastries are too sweet, and bacon-and-egg rolls are often too salty or greasy.
 
-We do have some go-to quick fixes: he can survive on hard-boiled eggs, and I used to get by with just a cup of coffee. Bananas and microwaved corn are also reliable last-minute choices. But over time, we’ve found a few breakfast recipes that take just a little more effort—and are totally worth it. These three are our favorites: quick, satisfying, and most importantly, we both genuinely enjoy them.
+We do have some go-to quick fixes: he can survive on hard-boiled eggs, and I used to get by with just a cup of coffee. Bananas and microwaved corn are also reliable choices. But over time, we’ve found a few breakfast recipes that take just a little more effort—and are totally worth it. These three are our favorites: quick, satisfying, and most importantly, we both genuinely enjoy them.
 
 ---
 
@@ -35,7 +35,7 @@ We don’t like our sourdough too crispy, so we usually skip toasting and just u
 5. Finish with another touch of salt and pepper.
 
 **Toppings:**  
-I like mine with a little kick—my favorite is [Brazilian *pimenta* hot sauce](https://brazilianstyle.com.au/collections/sauces/products/hot-red-pepper-sauce-molho-de-pimenta-vermelha-extra-forte-60ml) (though it’s hard to find), or Tabasco as a substitute, plus a sprinkle of dried chives. My husband prefers his plain, with no extra toppings.
+I like mine with a little kick—my favorite is [Brazilian pimenta hot sauce](https://brazilianstyle.com.au/collections/sauces/products/hot-red-pepper-sauce-molho-de-pimenta-vermelha-extra-forte-60ml) (though it’s hard to find), or [Tabasco](https://www.coles.com.au/product/mc-ilhenny-co.-tabasco-sauce-60ml-422599?uztq=46abcbb7e16253b0cdc3e6c5bbe6a3f0&srsltid=AfmBOoq9H3ko0CfwpW1iASRhJDT4mSkbdHONM7BZF-j8A2YVdprMWXgk1hk&gStoreCode=800) as a substitute, plus a sprinkle of [dried chives](https://www.coles.com.au/product/masterfoods-chives-chopped-7g-163650). My husband prefers his plain, with no extra toppings.
 
 I love this recipe so much I’ll often double the portion and have it for lunch or even dinner.
 
@@ -58,11 +58,11 @@ This recipe is based on the [Inspired Taste Pancake Recipe](https://www.inspired
 **Toppings:**
 
 - Peanut butter  
-- 1 banana (sliced, best served cold from the fridge)  
+- Banana (sliced, best served cold from the fridge)  
 - Cinnamon + hemp seeds (for me)  
 - Honey (for my husband)  
 
-This makes 4 large pancakes—enough for two breakfasts for us. We each get one pancakes, topped with peanut butter, banana slices, and our own favorite finish.
+Instead of making lots of small pancakes, I’ve found it much quicker to make a few large ones. This recipe yields 4 big pancakes—enough for two days of breakfast for the two of us. Each morning, we each have one pancake, topped with peanut butter, banana slices, and our favorite finishing touches.
 
 **Tips:**  
 The secret to good pancakes is cooking on low-medium heat. On our stove, setting it to 3 out of 6 works best. The first pancake is always the hardest—once the pan is “seasoned,” the rest are easy.
@@ -79,7 +79,7 @@ Interestingly, we each have our own version:
 
 **Mine:**
 
-- 5 tablespoons toasted muesli with dried fruits and nuts  
+- 5 tablespoons [toasted muesli with dried fruits and nuts](https://www.coles.com.au/product/carman's-muesli-toasted-classic-fruit-and-nut-500g-6920566)  
 - 1/2 tablespoon chia seeds  
 - Milk (just enough to cover)  
 - Leave in the fridge overnight  
