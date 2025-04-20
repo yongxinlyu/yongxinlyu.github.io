@@ -12,11 +12,26 @@ Mornings in our household are often a rush. My husband is also my breakfast part
 
 We do have some go-to quick fixes: he can survive on hard-boiled eggs, and I used to get by with just a cup of coffee. Bananas and microwaved corn are also reliable choices. But over time, we’ve found a few breakfast recipes that take just a little more effort—and are totally worth it. These three are our favorites: quick, satisfying, and most importantly, we both genuinely enjoy them.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/avo-toast.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/pancake.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog-figure/oat.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 ---
 
 ### 1. Avocado Toast
 
 Avocado toast is a brunch staple in Sydney cafes, but it’s surprisingly easy (and rewarding) to make at home. When I first started making it, I used regular sliced bread—because, you know, sourdough isn’t that common in many Asian countries, and it took me a while to acquire a taste for it. But no one told me: for great avocado toast, **sourdough is everything**!
+
+It’s been a steep learning curve figuring out how to choose, store, and prepare sourdough properly. Recently, I’ve found that the best way to serve it is to freeze the slices, briefly wet them, then toast them in an air fryer or oven. This method keeps the inside soft while preventing the crust from becoming too crispy—just the way we like it.
 
 **What you’ll need for 2 people:**
 
@@ -24,7 +39,6 @@ Avocado toast is a brunch staple in Sydney cafes, but it’s surprisingly easy (
 - 1 large avocado  
 - 3 eggs  
 
-We don’t like our sourdough too crispy, so we usually skip toasting and just use it straight from the pantry.
 
 **Assembly:**
 
