@@ -46,7 +46,7 @@ Reach out to lecturers. Email course convenors. Most will be happy to hear from 
 
 **Tip:** Teaching roles follow the academic calendar. If you want a spot in Term 2, start asking in Term 1.
 
-#### **Nervous About Teaching?**
+#### Nervous about teaching?
 
 I was too! I highly recommend training programs like UNSW’s [Beginning to Teach](https://www.teaching.unsw.edu.au/beginning-teach-ecrs-and-hdrs). It was low-stakes, supportive, and helped me understand what goes into planning a class — the prep, the pacing, the expectations. Turns out, teaching isn’t just about speaking confidently. It’s about designing a session that works even when you’re not at your best.
 
@@ -54,11 +54,11 @@ I was too! I highly recommend training programs like UNSW’s [Beginning to Teac
 
 Another fulfilling option is participating in outreach programs. These are often aimed at high school students, the general public, or underrepresented communities.
 
-I volunteered with the [**UNSW STEMM Champions Program**](https://www.unsw.edu.au/science/engage-with-us/unsw-stemm-champions-program) and participated in events like:
+I volunteered with the [UNSW STEMM Champions Program](https://www.unsw.edu.au/science/engage-with-us/unsw-stemm-champions-program) and participated in events like:
 
 - [**Pint of Science**](https://pintofscience.com.au) – where I gave a talk about my research in a pub!
 - **Science in the Swamp** 
-- **Women in Science blog** (here’s a [link to my post](https://blogs.unsw.edu.au/stemmchampions/blog/2023/06/)!)
+- **STEMM Champions blog** (here’s a [link to my post](https://blogs.unsw.edu.au/stemmchampions/blog/2023/06/)!)
 
 Friends of mine have been involved in [**SciX**](https://www.unsw.edu.au/science/study-with-us/scix-school-extension-program), **Open Day**, and other public-facing events.
 
@@ -74,7 +74,7 @@ My friend Mariana told me about it. I was curious — I’d never taken an exam 
 
 I only did two shifts. It was chaotic at first — you’re thrown in and expected to learn fast. But it was fascinating. I even ended up supervising a computer science exam on machine learning, which I love, and had a great chat with one of the students.
 
-### **Some Final Thoughts**
+### Some Final Thoughts
 
 Here’s the thing: I thought ignoring casual jobs was helping me focus. In reality, I was isolating myself.
 
