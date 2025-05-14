@@ -20,9 +20,6 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I am a PhD candidate in the School of Materials Science & Engineering at UNSW Sydney. I'm interested in exploring the chemical space of new materials using `high-throughput` computational methods and interpretable `machine learning`. 
 
-My research focuses on discoverying functional materials .
-
 I completed my BSc and MPhil in Applied Physics at the Hong Kong Polytechnic University, where I explored two-dimensional materials using experimental and computational approaches in [Professor Jianhua Hao](https://ap.polyu.edu.hk/apjhhao/)'s group.
 
-At UNSW, I'm part of [Professor Tom Wu](https://www.unsw.edu.au/staff/tom-wu)'s group. My research focuses on inverse design of 2D perovskites using classical machine learning and first-principles calculation methods.
-
+At UNSW, I'm part of [Professor Tom Wu](https://www.unsw.edu.au/staff/tom-wu)'s group. My research focuses on `inverse design` of 2D `perovskites` using machine learning and first-principles calculations.
