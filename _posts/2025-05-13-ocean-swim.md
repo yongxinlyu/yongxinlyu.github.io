@@ -36,5 +36,5 @@ I’m not a fan of being pounded by waves, so I usually skip the open ocean and 
 
 ### **Final Tips**
 
-- **Check the conditions first** – Wylie’s Baths has a live cam you can check before heading out. The three rock pools have different levels of exposure to waves: Wylie’s gets hit the hardest, followed by the Ladies Baths, while the Ross Jones Rockpool is the most sheltered. Even when Wylie’s is closed due to rough seas, the Ross Jones Rockpool is usually calm enough.
+- **Check the conditions first** – [Wylie’s Baths](https://wylies.com.au) has a live cam you can check before heading out. The three rock pools have different levels of exposure to waves: Wylie’s gets hit the hardest, followed by the Ladies Baths, while the Ross Jones Rockpool is the most sheltered. Even when Wylie’s is closed due to rough seas, the Ross Jones Rockpool is usually calm enough.
 - **Post-swim treats** – You’ve earned it! Grab a *Yo-Chi* like a true local (frozen yogurt + toppings = happiness), hit a nearby café for something hot, or wander into one of the many restaurants or pubs around. Coogee’s full of options.
