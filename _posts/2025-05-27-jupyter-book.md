@@ -8,38 +8,42 @@ tags: teaching
 featured: false
 ---
 
-Recently, I’ve been helping with a data science course, and it got me thinking: how do people effectively teach Python and machine learning to absolute beginners?
+Recently, I started my teaching journey by helping out with a data science course. That got me wondering—how do people actually teach Python and machine learning to complete beginners?
 
-To find out, I started exploring how others design their course materials. I came across two excellent examples—Professor Aron Walsh’s [Machine Learning for Materials](https://aronwalsh.github.io/MLforMaterials) at UCL and Professor Zachary Ulissi’s [Numerical Methods and ML for Chemical Engineers](https://ulissigroup.cheme.cmu.edu/F22-06-325/index.html) at CMU. These sites are not only informative but beautifully organized, with lecture slides and Jupyter Notebooks accessible directly from the browser.
+To find out, I began looking at how others structure their course materials. I came across two fantastic examples: Professor Aron Walsh’s [Machine Learning for Materials](https://aronwalsh.github.io/MLforMaterials) at UCL and Professor Zachary Ulissi’s [Numerical Methods and ML for Chemical Engineers](https://ulissigroup.cheme.cmu.edu/F22-06-325/index.html) at CMU. Their course websites are beautifully organized, with lecture slides and interactive Jupyter Notebooks available directly in the browser.
 
-As someone who relies heavily on Python and machine learning in my own research, it was fascinating to see how these tools are presented in a classroom setting. I’ve mostly learned on my own, so I never thought deeply about how to teach these concepts to someone starting from scratch.
+As someone who uses Python and machine learning daily in my own research, I found it fascinating to see how these tools are introduced in a classroom setting. I’ve mostly been self-taught, so I’d never thought much about *how* to teach them from the ground up.
 
-What immediately stood out to me was that both courses have fully functional websites that host all their teaching materials—including Jupyter Notebooks—with interactive code outputs. That’s when I discovered a powerful tool behind the scenes: Jupyter Book.
+What really stood out to me was that both courses have a fully functional website where all their teaching materials—including Jupyter Notebooks—are not only hosted but can be explored interactively. That’s when I discovered the secret weapon behind them: **Jupyter Book**.
 
 ---
 
 ### **What Is Jupyter Book?**
 
-[Jupyter Book](https://jupyterbook.org/) is a Python library that transforms a collection of Markdown files and Jupyter Notebooks into a well-structured HTML website. It builds a hierarchy between pages and sections, allowing you to organize content the way you would in a textbook—or, in my case, a tutorial site for students.
+[Jupyter Book](https://jupyterbook.org/) is a Python library that turns collections of Markdown files and Jupyter Notebooks into a structured HTML website. You can organize content into chapters and sections, just like a digital textbook.
 
-The best part? Anyone can view the notebooks with code outputs without needing to install Python or run a cloud-based environment like Google Colab. That said, you can still enable live coding by connecting to third-party platforms such as Binder or Google Colab. Super convenient!
+The best part? Readers can view the notebook outputs directly in the browser without needing to install anything or set up a cloud environment. Even better, you can enable live coding using platforms like Binder, Google Colab, or even Thebe to run code right on the website.
+
+I built a mock course site called Personalised Programming Language Enhancement Course using Jupyter Book—feel free to check it out [here](https://yongxinlyu.github.io/PPLE/).
 
 ---
 
 ### **How I Built My Jupyter Book**
 
-1. Install Jupyter Book
-
+**1. Install Jupyter Book**
 
 ```bash
 pip install -U jupyter-book
 ```
 
-2. Create a Sample Book
+**2. Create a Sample Book**
 
+```bash
 jupyter-book create mynewbook/
+```
 
 This generates a folder structure like this:
+
 ```
 ├── _config.yml          # Book settings (title, author, theme, etc.)
 ├── _toc.yml             # Table of contents (page structure)
@@ -49,41 +53,48 @@ This generates a folder structure like this:
 ├── requirements.txt     # Python packages for running the book
 ```
 
-3. Modify Key Files
-- **_config.yml**: Set your book title, author name, and basic configuration.
-- **_toc.yml**: Define the structure and order of pages/sections.
-- **requirements.txt**: List any Python packages your notebooks use.
+**3. Modify Key Files**
 
-4. Build Your Book
+- `_config.yml`: Set your book’s title, author, and theme.
+- `_toc.yml`: Define the structure and order of pages/sections.
+- `requirements.txt`: List any Python packages your notebooks use.
+
+**4. Build Your Book**
 
 ```bash
 jupyter-book build mynewbook/
 ```
-This will generate an _build/ folder with all your HTML files that you can preview locally.
+This will generate an `_build/` folder with all your HTML files that you can preview locally.
 
 ---
 
 ### **Hosting on GitHub Pages**
 
-There are two main ways to host your book:
+There are two main ways to publish your book:
 
-1.	Manual: Push the HTML files in _build/ to your GitHub repository.
+**1. Manual:** Push the HTML files in _build/ to your GitHub repository.
 
-2.	Automated (recommended): Use GitHub Actions to automatically build and deploy the book every time you push.
+**2. Automated (my favorite!):** Use GitHub Actions to automatically build and deploy the book every time you push updates.
 
-Here’s how to set up automated deployment:
-- Add this file to .github/workflows/deploy.yml
-(Use Jupyter Book’s template to generate it.)
-- In your repo’s Settings > Actions > General, give “Read and Write” permission to workflows.
-- In Settings > Pages, set the source to the gh-pages branch.
+Here’s how I set it up:
 
-After that, GitHub will host your site and provide you with a public URL—ready to share with students or colleagues!
+- Add a GitHub Actions file: .github/workflows/deploy.yml
+(You can use this template or check out mine [here]().)
+
+- Go to your repository settings:
+    - Under **Actions > General**, set workflow permissions to “Read and write.”
+	- Under **Pages**, choose to deploy from the gh-pages branch.
+
+- I still build the site locally to test it before pushing changes, but I ignore the _build/ folder using .gitignore to keep the repository clean.
+
+Once it’s set up, GitHub will host your site and give you a public URL—perfect for sharing with students or collaborators!
 
 ---
 
 ### **Make It Interactive**
 
-To enable live coding features, add the following to your _config.yml:
+You can add live execution options with just a few lines in `_config.yml`:
+
 ```yml
 launch_buttons:
   colab_url: "https://colab.research.google.com"
@@ -94,15 +105,12 @@ This will add buttons to each notebook page so users can open the content direct
 
 ---
 
-### **Explore More Examples**
+### **Final Thoughts**
 
-Want to get inspired? Check out some beautiful and functional Jupyter Books created by the community:
+If you’re curious to see what others have done with Jupyter Book, check out this gallery:
 [Executable Books Gallery](https://executablebooks.org/en/latest/gallery/)
 
----
+While preparing this data science course, I’ve also been digging around for real-world datasets from the literature. Honestly, I was surprised at how hard it is to find well-organized, usable code and data—even when people say they’ve made them publicly available.
 
-
-If you’re a researcher, educator, or student trying to share Jupyter Notebooks in an accessible, structured, and professional way—Jupyter Book is an amazing tool. I found it surprisingly easy to set up, and it adds a polished touch to teaching materials, research demos, or technical blogs.
-
-Let me know if you try it or have questions—I’d love to see what you create!
+Most of the time, research code on GitHub is hard to read, lacks documentation, or is impossible to reproduce. That’s why I believe tools like Jupyter Book are a step in the right direction. They make it easier to share knowledge—even with people who aren’t experienced coders. I hope more researchers give it a try and help make science more open, accessible, and reproducible.
 
