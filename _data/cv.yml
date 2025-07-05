@@ -13,10 +13,10 @@
   contents:
     - title: PhD in Materials Science and Engineering
       institution: University of New South Wales
-      year: 2021 - present
+      year: 2021 - 2025
       description:
         - Supervised by Prof. Tom Wu.
-        - High-throughput calculation and interpretable machine learning to design hybrid organic-inorganic perovskites.
+        - AI-assisted inverse design of two-dimensional hybrid perovskites.
 
     - title: MPhil in Applied Physics
       institution: The Hong Kong Polytechnic University
@@ -36,7 +36,7 @@
   contents:
     - title: High-throughput simulation and machine learning for 2D perovskite discovery
       institution: University of New South Wales
-      year: 2021 - present
+      year: 2021 - 2025
       description:
         - High-throughput DFT simulation of 2D hybrid organic-inorganic perovskites.
         - Interpretable machine learning for materials discovery.
