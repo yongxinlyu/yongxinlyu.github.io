@@ -28,26 +28,25 @@
       institution: The Hong Kong Polytechnic University
       year: 2013 - 2017
       description:
-       - 1st class honours, GPA 3.73/4.0
+       - 1st class honours
        - Dean's honours list 2016
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: High-throughput simulation and machine learning for 2D perovskite discovery
+    - title: AI‑driven materials discovery
       institution: University of New South Wales
       year: 2021 - 2025
       description:
-        - High-throughput DFT simulation of 2D hybrid organic-inorganic perovskites.
-        - Interpretable machine learning for materials discovery.
+        - Developed an AI-assisted materials discovery pipeline for the design of 2D hybrid perovskites.
+        - Inverse-designed novel 2D perovskite candidates targeting specific electronic properties.
 
-    - title: Atomistic simulation and growth of 2D materials
+    - title: Modeling and Synthesis of 2D Materials
       institution: The Hong Kong Polytechnic University
       year: 2017 - 2021
       description:
-        - Density functional theory (DFT) calculation of lanthanide doped 2D metal dichalcogenide.
-        - Chemical vapor deposition (CVD) growth of lanthanide doped 2D metal dichalcogenide.
-        - Molecular dynamics (MD) simulation of the pulsed laser deposition (PLD) process of 2D black phosphors.
+        - Investigated synthesis and luminescence in 2D materials using first-principles modeling.
+        - Studied the mechanisms of large-scale black phosphorus growth via molecular dynamics simulations.
 
 
 
