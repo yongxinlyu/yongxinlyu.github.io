@@ -2,96 +2,88 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yongxin Lyu
     - name: Date of Birth
-      value: 14th March 1879
+      value: 20th Jan 1996
     - name: Languages
-      value: English, German
+      value: English, Mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Materials Science & Engineering
+      institution: University of New South Wales
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Supervisor: Professor Tom Wu
+        - Thesis: AI-assisted inverse design of 2D hybrid perovskites
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
 
-- title: Experience
+    - title: MPhil in Applied Physics
+      institution: The Hong Kong Polytechnic University
+      year: 2017 - 2020
+      description:
+        - Supervisor: Professor Jianhua Hao
+        - Thesis: Investigation of 2D materials for optoelectronic applications
+
+    - title: BSc in Applied Physics
+      institution: The Hong Kong Polytechnic University
+      year: 2013 - 2017
+      description:
+       - 1st class honours
+       - Dean's honours list 2016
+
+- title: Research
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI driven materials discovery
+      institution: University of New South Wales
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed an AI-assisted materials discovery pipeline for the design of 2D hybrid perovskites.
+        - Inverse-designed novel 2D perovskite candidates targeting specific electronic properties.
+
+    - title: Modeling and synthesis of 2D materials
+      institution: The Hong Kong Polytechnic University
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Investigated synthesis and luminescence in 2D materials using first-principles modeling.
+        - Studied the mechanisms of large-scale black phosphorus growth via molecular dynamics simulations.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Data-driven decision making in chemical engineering
+      institution: University of New South Wales
+      year: 2025 Term 2, teaching assistant
+#      description:
+#        - Developed an AI-assisted materials discovery pipeline for the design of 2D hybrid perovskites.
+#        - Inverse-designed novel 2D perovskite candidates targeting specific electronic properties.
+
+    - title: Personalised english language enhancement (PELE)
+      institution: University of New South Wales
+      year: 2025 Term 2, tutor
+#      description:
+#        - Investigated synthesis and luminescence in 2D materials using first-principles modeling.
+#        - Studied the mechanisms of large-scale black phosphorus growth via molecular dynamics simulations.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - UNSW Women in Maths and Science Champions Program
+    - year: 2021 - 2024
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Australian Government Research Training Program (RTP) Scholarship
+    - year: 2016
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Dean's honours list, PolyU
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>Hobbies:</b> Yoga, Guitar, Handcraft.
