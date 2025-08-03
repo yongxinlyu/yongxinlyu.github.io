@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: polymer clay diaries
+description: miniature crafts and creative breaks from research.
 img:
 importance: 3
 category: fun

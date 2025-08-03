@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: data science in the wild
+description: exploring real-world datasets through code and curiosity.
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+#redirect: https://unsplash.com
+importance: 1
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
