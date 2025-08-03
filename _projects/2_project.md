@@ -2,7 +2,7 @@
 layout: page
 title: learning to teach
 description: reflections on teaching, student engagement, and finding my voice in classroom.
-img: assets/img/3.jpg
+img: assets/img/project_covers/learn-to-teach.jpg
 importance: 2
 category: work
 ---

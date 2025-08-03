@@ -2,8 +2,7 @@
 layout: page
 title: data science in the wild
 description: exploring real-world datasets through code and curiosity.
-img: assets/img/7.jpg
-#redirect: https://unsplash.com
+img: assets/img/project_covers/data-science.jpg
 importance: 1
 category: fun
 ---

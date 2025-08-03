@@ -1,8 +1,6 @@
 {
   "about me": {
     "name": "Yongxin Lyu",
-    "label": "",
-    "image": "",
     "email": "yongxin.lyu@unsw.edu.au",
     "phone": "(61) 448692871",
     "url": "https://yongxinlyu.github.io/",
@@ -11,27 +9,18 @@
   "education": [
     {
       "institution": "University of New South Wales",
-      "location": "",
-      "url": "",
-      "area": "",
       "studyType": "PhD in Materials Science & Engineering",
       "startDate": "2021",
       "endDate": "2025"
     },
     {
       "institution": "The Hong Kong Polytechnic University",
-      "location": "",
-      "url": "",
-      "area": "",
       "studyType": "MPhil in Applied Physics",
       "startDate": "2017",
       "endDate": "2020"
     },
     {
       "institution": "The Hong Kong Polytechnic University",
-      "location": "",
-      "url": "",
-      "area": "Software Development",
       "studyType": "Bsc in Applied Physics",
       "startDate": "2013",
       "endDate": "2017"
@@ -69,7 +58,8 @@
     },
     {
       "title": "Australian Government Research Training Program (RTP) Scholarship",
-      "date": "2021 - 2024",
+      "startDate": "2021",
+      "endDate": "2024",
       "awarder": "",
       "url": "",
       "summary": ""

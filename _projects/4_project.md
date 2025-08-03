@@ -2,7 +2,7 @@
 layout: page
 title: polymer clay diaries
 description: miniature crafts and creative breaks from research.
-img:
+img: assets/img/project_covers/polymer-clay.jpg
 importance: 3
 category: fun
 ---

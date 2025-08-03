@@ -2,7 +2,7 @@
 layout: page
 title: AI for 2D perovskites
 description: Machine learning meets materials discovery--my PhD journey in designing 2D perovskites.
-img: assets/img/12.jpg
+img: assets/img/project_covers/dj-perovskite.png
 importance: 1
 category: work
 #related_publications: true
