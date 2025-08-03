@@ -328,6 +328,13 @@ ninja.data = [{
           window.open("mailto:%79%6F%6E%67%78%69%6E.%6C%79%75@%75%6E%73%77.%65%64%75.%61%75", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/yongxinlyu", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -347,6 +354,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=UMQWBRQAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/yongxinlyu", "_blank");
         },
       },{
       id: 'light-theme',
