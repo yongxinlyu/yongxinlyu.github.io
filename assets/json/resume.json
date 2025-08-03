@@ -26,23 +26,22 @@
       "endDate": "2017"
     }
   ],
-  "work": [
+  "projects": [
     {
-      "name": "Professor Tom Wu's Group, University of New South Wales",
-      "position": "AI driven materials discovery",
+      "name": "AI driven materials discovery",
+      "description": "Professor Tom Wu's Group, University of New South Wales",
       "startDate": "2021",
       "endDate": "2025",
-      "summary": "",
+      "url": "",
       "highlights": ["Developed an AI-assisted materials discovery pipeline for the design of 2D hybrid perovskites.", 
       "Inverse-designed novel 2D perovskite candidates targeting specific electronic properties."]
     },
     {
-      "name": "Professor Jianhua Hao's Group, The Hong Kong Polytechnic University",
-      "position": "Modelling and synthesis of 2D materials",
-      "url": "",
+      "name": "Modelling and synthesis of 2D materials",
+      "description": "Professor Jianhua Hao's Group, The Hong Kong Polytechnic University",
       "startDate": "2017",
       "endDate": "2021",
-      "summary": "",
+      "url": "",
       "highlights": ["Investigated synthesis and luminescence in 2D materials using first-principles modeling.", 
       "Studied the mechanisms of large-scale black phosphorus growth via molecular dynamics simulations."]
     }
