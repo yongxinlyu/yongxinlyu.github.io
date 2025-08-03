@@ -1,5 +1,5 @@
 {
-  "about me": {
+  "basics": {
     "name": "Yongxin Lyu",
     "email": "yongxin.lyu@unsw.edu.au",
     "phone": "(61) 448692871",
@@ -26,11 +26,10 @@
       "endDate": "2017"
     }
   ],
-    "research": [
+  "work": [
     {
-      "organization": "Professor Tom Wu's Group, University of New South Wales",
-      "title": "AI driven materials discovery",
-      "url": "",
+      "name": "Professor Tom Wu's Group, University of New South Wales",
+      "position": "AI driven materials discovery",
       "startDate": "2021",
       "endDate": "2025",
       "summary": "",
@@ -38,8 +37,8 @@
       "Inverse-designed novel 2D perovskite candidates targeting specific electronic properties."]
     },
     {
-      "organization": "Professor Jianhua Hao's Group, The Hong Kong Polytechnic University",
-      "title": "Modelling and synthesis of 2D materials",
+      "name": "Professor Jianhua Hao's Group, The Hong Kong Polytechnic University",
+      "position": "Modelling and synthesis of 2D materials",
       "url": "",
       "startDate": "2017",
       "endDate": "2021",
@@ -52,23 +51,19 @@
     {
       "title": "UNSW STEMM Champions Program",
       "date": "2023",
-      "awarder": "",
-      "url": "",
+      "awarder": "University of New South Wales",
       "summary": ""
     },
     {
       "title": "Australian Government Research Training Program (RTP) Scholarship",
-      "startDate": "2021",
-      "endDate": "2024",
-      "awarder": "",
-      "url": "",
+      "date": "2021-2024",
+      "awarder": "Australian Government",
       "summary": ""
     },
     {
       "title": "Dean's honours list",
       "date": "2016",
       "awarder": "The Hong Kong Polytechnic University",
-      "url": "",
       "summary": ""
     }
   ]

@@ -3,8 +3,7 @@ layout: post
 title: Casual Work as a PhD Student
 date: 2025-05-01 00:01:00
 description: balancing research and rent
-categories: career
-tags: teaching
+categories: teaching
 featured: false
 ---
 

@@ -3,8 +3,8 @@ layout: post
 title: From Jupyter Notebook to Website
 date: 2025-05-27 00:01:00
 description: sharing teaching materials with jupyter-book
-categories: research
-tags: teaching
+categories: teaching
+#tags: 
 featured: false
 ---
 

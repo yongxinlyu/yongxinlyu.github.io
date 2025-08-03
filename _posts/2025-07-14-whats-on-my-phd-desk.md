@@ -4,6 +4,7 @@ title: What was on my PhD desk?
 date: 2025-07-08 00:01:00
 description: A quiet farewell to the space where I coded, wrote, and occasionally dozed off
 categories: life
+tags: PhD-life
 featured: false
 ---
 

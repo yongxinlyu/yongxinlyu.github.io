@@ -84,8 +84,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Side Notes # blog_name will be displayed in your blog page
-blog_description: research, teaching, and life
+blog_name: side notes # blog_name will be displayed in your blog page
+blog_description: on research, teaching, and life
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -253,8 +253,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["AI", "PhD life"] # these tags will be displayed on the front page of your blog
-display_categories: ["research", "teaching", "personal"] # these categories will be displayed on the front page of your blog
+display_tags: ["AI", "PhD-life"] # these tags will be displayed on the front page of your blog
+display_categories: ["research", "teaching", "life"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -627,10 +627,9 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 
 jsonresume:
-  - about me
-#  - work
+  - basics
   - education
-  - research
+  - work
 #  - publications
 #  - projects
 #  - volunteer

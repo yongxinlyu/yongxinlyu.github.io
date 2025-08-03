@@ -3,8 +3,8 @@ layout: post
 title: What’s Really Behind UNSW’s Top 20 QS Ranking?
 date: 2025-06-24 00:01:00
 description: A data-driven dive into what the rankings actually measure.
-categories: teaching
-tags: teaching
+categories: research
+tags: data-science
 featured: false
 pretty_table: true
 ---

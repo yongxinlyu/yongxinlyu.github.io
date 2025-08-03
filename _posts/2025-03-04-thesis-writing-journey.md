@@ -4,7 +4,7 @@ title: The Thesis Writing Journey
 date: 2025-03-04 09:01:00
 description: Turns out, it wasn’t that bad.
 categories: research
-#tags: AI
+tags: PhD-life
 featured: false
 ---
 

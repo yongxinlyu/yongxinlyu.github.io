@@ -4,7 +4,7 @@ title: Easy Breakfasts for Busy Mornings
 date: 2025-04-15 00:01:00
 description: breakfast recipes
 categories: life
-#tags: AI
+tags: PhD-life
 featured: false
 ---
 
