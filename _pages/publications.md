@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: see my [google scholar](https://scholar.google.com/citations?user=UMQWBRQAAAAJ) page for a full list of publications.
+description: see my <a href="https://scholar.google.com/citations?user=UMQWBRQAAAAJ" target="_blank">google scholar</a> page for a full list of publications.
 nav: true
 nav_order: 2
 ---
