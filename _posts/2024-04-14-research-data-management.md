@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The One with Research Data Management
+title: The one with research data management
 date: 2024-04-14 09:01:00
 description: dude, where's my stuff?
 tags: figures

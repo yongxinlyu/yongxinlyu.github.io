@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Easy Breakfasts for Busy Mornings
+title: Easy breakfasts for busy mornings
 date: 2025-04-15 00:01:00
-description: breakfast recipes
+description: what I eat in a day as a PhD student
 categories: life
 tags: PhD-life
 featured: false

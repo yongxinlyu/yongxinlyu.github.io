@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The One with Figure Formatting
+title: The one with figure formatting
 date: 2024-04-15 09:01:00
-description: Figure formatting in research journals
+description: figure formatting in research journals
 tags: figures
 categories: research
 

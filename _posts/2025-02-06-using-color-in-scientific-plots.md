@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Colour Choices in Scientific Plots
+title: Colour choices in scientific plots
 date: 2025-02-04 09:01:00
 description: how to choose palettes that work
 categories: research

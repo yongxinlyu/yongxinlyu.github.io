@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seaborn.objects Interface Cheatsheet
+title: Seaborn.objects interface cheatsheet
 date: 2025-01-21 09:01:00
 description: a comprehensive guide
 categories: research

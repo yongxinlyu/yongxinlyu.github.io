@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating Scientific Figures for High-Impact Journals
+title: Creating scientific figures for high-impact journals
 date: 2024-11-25 09:01:00
 description: lessons learned the hard way 
 categories: research

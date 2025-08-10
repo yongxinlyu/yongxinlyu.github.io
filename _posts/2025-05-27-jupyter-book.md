@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Jupyter Notebook to Website
+title: From Jupyter notebook to website
 date: 2025-05-27 00:01:00
 description: sharing teaching materials with jupyter-book
 categories: teaching

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What’s Really Behind UNSW’s Top 20 QS Ranking?
+title: What’s really behind UNSW’s top 20 QS ranking?
 date: 2025-06-24 00:01:00
-description: A data-driven dive into what the rankings actually measure.
+description: a data-driven dive into what the rankings actually measure
 categories: research
 tags: data-science
 featured: false
@@ -15,7 +15,7 @@ Naturally, this made the rounds on campus pretty quickly. But as someone who’s
 
 Turns out, QS doesn’t just post pretty charts; they also make the raw data available. And if you give a data nerd a CSV… well, they’re going to analyze it.
 
-### **How Do QS Rankings Actually Work?**
+### **How do QS rankings actually work?**
 
 You might assume these rankings are just about research powerhouses or who’s publishing the most. But QS uses a mix of indicators that go beyond just academic output. Here’s the breakdown:
 
@@ -36,7 +36,7 @@ You might assume these rankings are just about research powerhouses or who’s p
 
 So it’s not just about research. It’s also about who knows you, who hires your graduates, and how globally connected you are.
 
-### **Data Cleaning: Focusing on the Top 500**
+### **Data cleaning: focusing on the top 500**
 
 One thing I quickly noticed: universities lower down in the list often have patchy data. Missing values galore. So to keep things tidy, I focused my analysis on the top 500 universities — where the dataset is much more complete.
 
@@ -51,7 +51,7 @@ From there, I looked at how different indicators relate to each other — and a 
     </div>
 </div>
 
-### **Regional Trends: Oceania Punches Above Its Weight**
+### **Regional trends: oceania punches above its weight**
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -82,13 +82,13 @@ One metric where Oceania really lags? Faculty/Student Ratio — a rough proxy fo
 
 This might reflect funding models, growing enrolments, or how universities allocate teaching staff — but it’s a reminder that no university system is perfect.
 
-### **So What Really Drives QS Rankings?**
+### **So what really drives QS rankings?**
 
 From this little data dive, it’s pretty clear that Academic Reputation is still the heavyweight in the QS formula — but global engagement plays a huge supporting role.
 
 And that favors universities like UNSW, which have built strong international strategies over the past few decades. On the flip side, even a well-known institution might struggle if class sizes balloon or their teaching support drops.
 
-### **Final Thoughts**
+### **Final thoughts**
 
 As a proud UNSW alum and a slightly obsessive data nerd, I’ve always been curious about what’s behind the numbers we love to celebrate. We talk a lot about rankings, but rarely about what they mean.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Figure Workflow I use
+title: Data figure workflow I use
 date: 2024-12-09 09:01:00
 description: on preparing data figures 
 categories: research

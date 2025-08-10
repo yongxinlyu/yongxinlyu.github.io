@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Books I've Been Reading
+title: Books I've been reading
 date: 2025-04-01 00:01:00
 description: a list of PhD survival guides and memoirs
 categories: life

@@ -2,7 +2,7 @@
 layout: post
 title: What was on my PhD desk?
 date: 2025-07-08 00:01:00
-description: A quiet farewell to the space where I coded, wrote, and occasionally dozed off
+description: a farewell to the space where I coded, wrote, and occasionally dozed off
 categories: life
 tags: PhD-life
 featured: false
@@ -41,7 +41,7 @@ Then, midway through my third year, I stumbled on a treasure: an abandoned 2010 
 
 I did experiment with three screens—but for me, consistency mattered more than quantity. Switching setups always took a bit of adjustment.
 
-### Desk Decorations
+### Desk decorations
 
 Of course, a workspace isn’t just functional—it’s also personal.
 
@@ -51,7 +51,7 @@ Here were my favourites:
 - A Spring Festival couplet from our 2023 Lunar New Year event, organised by our student society, PGSOC. I wrote a little wish on mine—for smooth simulations and bug-free code.
 - A magnetic 3D-printed perovskite model I designed and made myself. It started as a fun side project and later became part of our outreach demos at a science festival. After the event, it lived on the magnetic cabinet next to my desk—where I (or my officemates) could rearrange it into different crystal structures. Functional and fun!
 
-### How Not to Fall Asleep at Your Desk
+### How not to fall asleep at your desk
 
 No matter how well the desk was set up, some days were just hard. We’ve all had those moments—staring at the screen, eyes glazing over. Here’s what helped me stay awake and focused:
 - Temperature matters. For months, I couldn’t figure out why I was always sleepy. Turns out: I was simply overdressed. Fewer layers indoors, a warm coat for outside—problem solved.
@@ -61,7 +61,7 @@ No matter how well the desk was set up, some days were just hard. We’ve all ha
 - Movement. When all else failed, I stood up and wandered into the tearoom to chat with a friend. Sometimes, that’s all you need to reset.
 
 
-### Signing Off
+### Signing off
 
 Packing up my desk marked the end of my PhD era. That small space quietly held so much—late nights, tough problems, tiny breakthroughs, and the daily rituals that kept me going.
 

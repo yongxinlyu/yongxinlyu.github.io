@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ocean Therapy at Coogee
+title: Ocean therapy at coogee
 date: 2025-05-13 00:01:00
 description: my favourite winter ritual
 categories: life

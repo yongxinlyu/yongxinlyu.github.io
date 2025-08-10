@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My PhD MacBook is My Lab Bench
+title: My PhD macBook is my lab bench
 date: 2025-03-18 09:01:00
-description: here’s what’s in my digital toolbox
+description: what’s in my digital toolbox
 categories: research
 #tags: AI
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can ChatGPT Write Your Thesis in an Hour?
+title: Can ChatGPT write your thesis in an hour?
 date: 2025-02-18 09:01:00
 description: a reality check
 categories: research
