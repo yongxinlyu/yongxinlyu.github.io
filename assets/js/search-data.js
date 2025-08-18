@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-life-after-phd",
+        },{id: "post-a-new-chapter-to-my-blog",
+        
+          title: "A new chapter to my blog",
+        
+        description: "after one year of blogging",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/blog-update/";
+          
+        },
+      },{id: "post-life-after-phd",
         
           title: "Life after PhD",
         
