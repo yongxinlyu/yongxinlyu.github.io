@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-new-chapter-to-my-blog",
+        },{id: "post-from-a-distant-dream-to-reality-my-ai4science-journey",
+        
+          title: "From a distant dream to reality -- my AI4Science journey",
+        
+        description: "a long way back to machine learning",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/my-AI4Science-journey/";
+          
+        },
+      },{id: "post-a-new-chapter-to-my-blog",
         
           title: "A new chapter to my blog",
         
