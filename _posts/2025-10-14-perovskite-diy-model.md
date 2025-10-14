@@ -36,8 +36,8 @@ Start by cutting paper into roughly a 3:1 rectangular shape and folding origami 
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog_figure/origami-perovskite-2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
 </div>
-
 
 Once you’ve made a few octahedra, connect them at the corners using thread, gently tie them together to form a cubic network. I love this model because it’s flexible. You can tilt the octahedra to mimic the rotations that solid-state physicist observe in real perovskites.
 
@@ -91,6 +91,7 @@ This idea came from brainstorming with my cousin, [Zefang](), who’s an expert 
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog_figure/3d-print-perovskite-2.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
 </div>
 
 
