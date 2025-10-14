@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-",
+        },{id: "post-diy-perovskite-crystal-model-origami-knitting-and-3d-printing",
         
-          title: "",
+          title: "DIY Perovskite crystal model--Origami, knitting and 3D printing",
         
-        description: "",
+        description: "a hands-on approach to science outreach and teaching materials science",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-10-14-perovskite-diy-model/";
+            window.location.href = "/blog/2025/perovskite-diy-model/";
           
         },
       },{id: "post-from-a-distant-dream-to-reality-my-ai4science-journey",
