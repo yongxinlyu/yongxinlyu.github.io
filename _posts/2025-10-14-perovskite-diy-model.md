@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DIY Perovskite crystal model: Origami, knitting and 3D printing
+title: DIY Perovskite crystal model--Origami, knitting and 3D printing
 date: 2025-10-14 00:00:00
 description: a hands-on approach to science outreach and teaching materials science
 categories: research
