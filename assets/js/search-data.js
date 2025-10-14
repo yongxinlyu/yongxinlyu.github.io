@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-from-a-distant-dream-to-reality-my-ai4science-journey",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-10-14-perovskite-diy-model/";
+          
+        },
+      },{id: "post-from-a-distant-dream-to-reality-my-ai4science-journey",
         
           title: "From a distant dream to reality -- my AI4Science journey",
         
