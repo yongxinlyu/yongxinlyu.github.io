@@ -77,7 +77,8 @@ As you can tell, this project is still ongoing. It’s time-consuming but incred
 
 The final version was my attempt to upgrade the origami perovskite model. I wanted something modular, where the octahedra could be assembled and disassembled quickly and freely — a hands-on kit for exploring different connectivity in perovskites.
 
-Thanks to my cousin [Zefang](https://zefangli.github.io), who's doing his PhD in 3D printing (and my unofficial 3D-printing consultant) who helped me bring this idea to life during one of our brainstorming sessions.
+Thanks to my cousin [Zefang](https://zefangli.github.io), 
+who’s pursuing a PhD in 3D printing (and also serves as my unofficial 3D-printing consultant) for helping me bring this idea to life during one of our brainstorming sessions.
 
 **Difficulty:** ★★★ (Advanced)
 
