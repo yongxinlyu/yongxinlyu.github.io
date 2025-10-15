@@ -66,18 +66,18 @@ I also found two contributors who are experienced knitters and documented how th
 For my version, I used **8-ply yarn** to knit triangles (you can also crochet them). Then, I sewed eight triangles together to form an octahedron. Since the yarn shapes are too soft to hold on their own, I cut matching triangle pieces from cardboard, taped them together into an octahedron, and inserted them inside as supports.
 
 <div class="row mt-3 justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog_figure/knitting-perovskite.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
-This project is still ongoing. It’s time-consuming but incredibly fun. So far, I’ve made eight octahedra and plan to finish assembling them just in time for my graduation ceremony next month!
+As you can tell, this project is still ongoing. It’s time-consuming but incredibly fun. So far, I’ve made 5 octahedra and plan to make 3 more and finish assembling them just in time for my graduation ceremony next month!
 
 ### **3. 3D-Printed Perovskite**
 
 The final version was my attempt to upgrade the origami perovskite model. I wanted something modular, where the octahedra could be assembled and disassembled quickly and freely — a hands-on kit for exploring different connectivity in perovskites.
 
-Thanks to my cousin [Zefang](https://zefangli.github.io), a PhD student specialised in 3D printing (and my unofficial 3D-printing consultant) who helped me bring this idea to life during one of our brainstorming sessions.
+Thanks to my cousin [Zefang](https://zefangli.github.io), who's doing his PhD in 3D printing (and my unofficial 3D-printing consultant) who helped me bring this idea to life during one of our brainstorming sessions.
 
 **Difficulty:** ★★★ (Advanced)
 
