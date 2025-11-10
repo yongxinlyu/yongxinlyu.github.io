@@ -79,7 +79,7 @@ This was my first attempt at analysing text-based data — I used job descriptio
 <iframe src="/assets/img/blog_figure/job-hunting-1.html" width="100%" height="500" frameborder="0"></iframe>
 {% endraw %}
 
-I also made a small **Sankey diagram** showing the journey of my applications — from submission to outcome. As you might guess, most of the flows end in the *rejected* column. Reality is painful, but honestly, playing with these data was fun.
+As you might guess, most of the applications end up with rejection. Reality is painful, but honestly, playing with these data was fun.
 
 At first, I felt deeply frustrated, convinced my employability must be terrible because of the rejections. But when I looked at the actual numbers, I realised I had only sent out **ten applications** in total. Statistically speaking, I’m still in the *very early stage* of job hunting.
 
