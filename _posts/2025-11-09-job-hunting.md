@@ -14,6 +14,12 @@ In today’s blog, I’d like to share my ongoing journey of understanding my ow
 
 ### From a clear path to an open sea
 
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_figure/job-hunting-0.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 One night, my husband and I were talking about how our career landscape have changed. Before the PhD, the path ahead felt like a road on solid ground: clear, predictable, and paved with milestones: bachelor’s, master’s, PhD. 
 
 But once I reached the end of that road, it was as if the ground disappeared beneath my feet.
