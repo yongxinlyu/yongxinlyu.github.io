@@ -76,7 +76,7 @@ How could I end this blog without a visualisation?
 This was my first attempt at analysing text-based data — I used job descriptions as the input, extracted keywords, and projected them using PCA to map the *landscape* of positions I’ve applied for. Each point represents one job; together, they form a visual summary of my search so far.
 
 {% raw %}
-<iframe src="assets/img/blog_figure/job-hunting-1.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="/assets/img/blog_figure/job-hunting-1.html" width="100%" height="500" frameborder="0"></iframe>
 {% endraw %}
 
 I also made a small **Sankey diagram** showing the journey of my applications — from submission to outcome. As you might guess, most of the flows end in the *rejected* column. Reality is painful, but honestly, playing with these data was fun.
