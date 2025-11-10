@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-diy-perovskite-crystal-model-origami-knitting-and-3d-printing",
+        },{id: "post-finding-my-employability-after-the-phd",
+        
+          title: "Finding my employability after the PhD",
+        
+        description: "finding a job is hard TT",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/job-hunting/";
+          
+        },
+      },{id: "post-diy-perovskite-crystal-model-origami-knitting-and-3d-printing",
         
           title: "DIY Perovskite crystal model--Origami, knitting and 3D printing",
         
