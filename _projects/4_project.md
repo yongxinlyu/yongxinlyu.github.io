@@ -1,6 +1,6 @@
 ---
 layout: page
-title: polymer clay diaries
+title: coding club for dummies
 description: miniature crafts and creative breaks from research.
 img: assets/img/project_covers/polymer-clay.jpg
 importance: 3
