@@ -1,9 +1,10 @@
 ---
 layout: page
 title: coding club for dummies
-description: miniature crafts and creative breaks from research.
-img: assets/img/project_covers/polymer-clay.jpg
+description: PELE social club 2025 T3.
+img: assets/img/project_covers/coding-club.jpg
 importance: 3
+redirect: https://yongxinlyu.github.io/PPLE/
 category: fun
 ---
 
