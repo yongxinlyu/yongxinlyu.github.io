@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "post-finding-my-employability-after-the-phd",
         
           title: "Finding my employability after the PhD",
@@ -310,7 +303,7 @@ ninja.data = [{
         },
       },{id: "projects-ai-for-2d-perovskites",
           title: 'AI for 2D perovskites',
-          description: "Machine learning meets materials discovery--my PhD journey in designing 2D perovskites.",
+          description: "Machine learning meets materials discovery.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-learning-to-teach",
@@ -323,8 +316,8 @@ ninja.data = [{
           description: "exploring real-world datasets through code and curiosity.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-polymer-clay-diaries",
-          title: 'polymer clay diaries',
+            },},{id: "projects-coding-club-for-dummies",
+          title: 'coding club for dummies',
           description: "miniature crafts and creative breaks from research.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
