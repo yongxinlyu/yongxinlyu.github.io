@@ -318,7 +318,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-coding-club-for-dummies",
           title: 'coding club for dummies',
-          description: "miniature crafts and creative breaks from research.",
+          description: "PELE social club 2025 T3.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{
