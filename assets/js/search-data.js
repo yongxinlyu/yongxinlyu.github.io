@@ -301,26 +301,31 @@ ninja.data = [{
             window.location.href = "/blog/2024/research-data-management/";
           
         },
-      },{id: "projects-ai-for-2d-perovskites",
+      },{id: "projects-multi-scale-2d-materials-simulation",
+          title: 'multi-scale 2D materials simulation',
+          description: "first-principles simulation and molecular dynamics",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2D_material/";
+            },},{id: "projects-ai-for-2d-perovskites",
           title: 'AI for 2D perovskites',
           description: "Machine learning meets materials discovery.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-learning-to-teach",
-          title: 'learning to teach',
-          description: "reflections on teaching, student engagement, and finding my voice in classroom.",
+              window.location.href = "/projects/AI_for_2D_perovskite/";
+            },},{id: "projects-perovskite-crystal-structure-model",
+          title: 'perovskite crystal structure model',
+          description: "For teaching, outreach and desk decor.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-data-science-in-the-wild",
-          title: 'data science in the wild',
-          description: "exploring real-world datasets through code and curiosity.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/DIY_perovskite_model/";
             },},{id: "projects-coding-club-for-dummies",
           title: 'coding club for dummies',
           description: "PELE social club 2025 T3.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/coding_club/";
+            },},{id: "projects-data-science-in-the-wild",
+          title: 'data science in the wild',
+          description: "exploring real-world datasets through code and curiosity.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/data_science/";
             },},{
         id: 'social-email',
         title: 'email',
