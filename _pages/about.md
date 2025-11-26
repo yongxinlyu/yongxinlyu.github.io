@@ -23,8 +23,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a computational materials scientist. I'm interested in exploring the chemical space of materials using `high-throughput` computational methods and interpretable `machine learning`. 
-
-I completed my BSc and MPhil in Applied Physics at the Hong Kong Polytechnic University, where I explored two-dimensional materials using experimental and computational approaches in [Professor Jianhua Hao](https://ap.polyu.edu.hk/apjhhao/)'s group.
+Hi! I am a computational materials scientist with a PhD from UNSW Sydney. I'm passionate about using high-throughput atomistic simulations, data-driven methods, and interpretable machine learning to explore the vast chemical space of functional materials. 
 
 At UNSW, I'm part of [Professor Tom Wu](https://www.unsw.edu.au/staff/tom-wu)'s group. My research focuses on `inverse design` of 2D `perovskites` using machine learning and first-principles calculations.
+
+Previously, I completed my BSc and MPhil in Applied Physics at the Hong Kong Polytechnic University, where I explored `2D materials` using multiscale simulation methods in [Professor Jianhua Hao](https://ap.polyu.edu.hk/apjhhao/)'s group.
+
+

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: learning to teach
-description: reflections on teaching, student engagement, and finding my voice in classroom.
-img: assets/img/project_covers/learn-to-teach.jpg
+title: coding club for dummies
+description: PELE social club 2025 T3.
+img: assets/img/project_covers/coding-club.jpg
 importance: 2
-category: work
+redirect: https://yongxinlyu.github.io/PPLE/
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

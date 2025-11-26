@@ -1,11 +1,10 @@
 ---
 layout: page
-title: coding club for dummies
-description: PELE social club 2025 T3.
-img: assets/img/project_covers/coding-club.jpg
-importance: 3
-redirect: https://yongxinlyu.github.io/PPLE/
-category: fun
+title: multi-scale 2D materials simulation
+description: first-principles simulation and molecular dynamics
+img: assets/img/project_covers/learn-to-teach.jpg
+importance: 2
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
