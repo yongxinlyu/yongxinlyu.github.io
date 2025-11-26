@@ -2,7 +2,7 @@
 layout: page
 title: multi-scale 2D materials simulation
 description: first-principles simulation and molecular dynamics
-img: assets/img/project_covers/learn-to-teach.jpg
+img: assets/img/publication_preview/wave-mechanics.gif
 importance: 2
 category: work
 ---
