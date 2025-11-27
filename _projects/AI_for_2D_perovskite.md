@@ -4,7 +4,7 @@ title: AI for 2D perovskites
 description: Machine learning meets materials discovery.
 img: assets/img/project_covers/dj-perovskite.gif
 importance: 1
-category: work
+category: research
 #related_publications: true
 ---
 

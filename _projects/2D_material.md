@@ -4,7 +4,7 @@ title: multi-scale 2D materials simulation
 description: first-principles simulation and molecular dynamics
 img: assets/img/publication_preview/wave-mechanics.gif
 importance: 2
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.

@@ -253,8 +253,8 @@ display_categories: ["research", "teaching", "life"] # these categories will be 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lyu]
+  first_name: [Yongxin]
 
   style: apa
   locale: en
