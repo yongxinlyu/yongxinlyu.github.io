@@ -321,11 +321,6 @@ ninja.data = [{
           description: "PELE social club 2025 T3.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/coding_club/";
-            },},{id: "projects-data-science-in-the-wild",
-          title: 'data science in the wild',
-          description: "exploring real-world datasets through code and curiosity.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/data_science/";
             },},{
         id: 'social-email',
         title: 'email',
