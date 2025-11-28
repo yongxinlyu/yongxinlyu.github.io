@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a computational materials scientist with a PhD from UNSW Sydney. I'm passionate about using high-throughput atomistic simulations, data-driven methods, and interpretable machine learning to explore the vast chemical space of functional materials. 
+Hi! I am a recent computational materials science PhD graduate from UNSW Sydney. I'm passionate about using high-throughput atomistic simulations, data-driven methods, and interpretable machine learning to explore the vast chemical space of functional materials. 
 
 At UNSW, I'm part of [Professor Tom Wu](https://www.unsw.edu.au/staff/tom-wu)'s group. My research focuses on `inverse design` of 2D `perovskites` using machine learning and first-principles calculations.
 
