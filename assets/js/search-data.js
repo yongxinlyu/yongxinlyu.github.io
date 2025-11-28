@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "This page is under construction.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -303,7 +303,7 @@ ninja.data = [{
         },
       },{id: "projects-multi-scale-2d-materials-simulation",
           title: 'multi-scale 2D materials simulation',
-          description: "stories from my early research journey",
+          description: "stories from my early research journey.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2D_material/";
             },},{id: "projects-ai-for-2d-perovskites",
