@@ -1,80 +1,49 @@
 ---
 layout: page
 title: multi-scale 2D materials simulation
-description: first-principles simulation and molecular dynamics
-img: assets/img/publication_preview/wave-mechanics.gif
+description: stories from my early research journey
+img: assets/img/project_2D_materials/2Dmaterials.jpg
 importance: 2
 category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Before I entered the world of perovskites, my research journey began with 2D materials: fragile, atom-thin crystals where a single dopant or defect can completely reshape their behaviour. My early projects in **Prof. Jianhua Hao’s group** shaped how I think about materials, deepened my love for simulation, and taught me how theory and experiment speak to each other.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Looking back, I’m especially grateful to my MPhil’s supervisor and colleagues for trusting a self-taught novice with real simulation work. Their confidence gave me the motivation to keep improving, and eventually to build the computational skills that now define my research.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### **Lanthanide-doped MoS₂: my first research story**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2D_materials/MoS2-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2D_materials/MoS2-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+My very first research project as an MPhil student explored the *near-infrared emission of Er³⁺-doped MoS₂ nanosheets*.
+
+I still remember the excitement (and fear!) of walking into the CVD lab for the first time. I learned how to grow monolayer MoS₂ by myself — adjusting temperatures, experimenting with precursors, and analysing the resulting nanosheets. Although I would later become fully absorbed in computational work, these early hands-on experiments helped me understand what real materials look like beyond an energy diagram.
+
+In parallel, I began simulating the **relaxed structure and electronic properties** of Er-doped MoS₂ using first-principles calculations. This was the moment I realised how strongly I am drawn to explaining *why* materials behave the way they do. Modelling gave me a kind of clarity and control that I couldn’t find in the lab.
+
+This project became my **first publication in APL** and marked the beginning of my identity as a computational materials researcher.
+
+### **Molecular dynamics and black phosphorus**
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2D_materials/BP.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Shortly after finishing my MPhil, I was invited to join a collaborative project studying the **growth mechanism of black phosphorus**. This project pushed me outside my comfort zone and introduced me to **classical molecular dynamics** — a completely different simulation toolbox.
 
-{% raw %}
+My role was to model the atomic-level growth process and reveal why certain conditions lead to stable, large-area black phosphorus sheets. These simulations helped interpret the experimental observations and ultimately contributed to a breakthrough: the **first successful centimeter-scale growth of black phosphorus**, published in *Nature Materials*.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### **Collaborations Across the 2D Materials World**
 
-{% endraw %}
+Beyond these main projects, I was fortunate to collaborate with colleagues on a diverse set of 2D systems — **MXenes, TMDs, layered perovskite-related materials**, and more. Each project taught me how to adapt to new materials, work with different collaborators, and use simulation as a bridge between theory and experiment.
+
+A particularly meaningful collaboration was working with Prof**. Ran Ding**, who at that time was a postdoc in our group. Together, we investigated **2D perovskites** and produced two publications in xx and xx. These collaborations planted the seed that eventually led me to the field of hybrid perovskites, and ultimately shaped my PhD journey.
