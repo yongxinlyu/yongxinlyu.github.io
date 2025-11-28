@@ -11,7 +11,7 @@ category: research
 Designing Dion–Jacobson (DJ) 2D perovskites is like searching for rare treasures in an impossibly large landscape.  
 Although these materials have remarkable potential, almost all known DJ perovskites share the same electronic band alignment (type Ia). To unlock new optical and electronic behaviours, we need *new organic spacers*—ones that create uncommon alignments such as Ib, IIa, or IIb.
 
-<div class="row">
+<div class="row mt-3 justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_covers/dj-perovskite.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>

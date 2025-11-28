@@ -1,15 +1,13 @@
 ---
 layout: page
 title: multi-scale 2D materials simulation
-description: stories from my early research journey
+description: stories from my early research journey.
 img: assets/img/project_2D_materials/2Dmaterials.jpg
 importance: 2
 category: research
 ---
 
 Before I entered the world of perovskites, my research journey began with 2D materials: fragile, atom-thin crystals where a single dopant or defect can completely reshape their behaviour. My early projects in **Prof. Jianhua Hao’s group** shaped how I think about materials, deepened my love for simulation, and taught me how theory and experiment speak to each other.
-
-Looking back, I’m especially grateful to my MPhil’s supervisor and colleagues for trusting a self-taught novice with real simulation work. Their confidence gave me the motivation to keep improving, and eventually to build the computational skills that now define my research.
 
 ### **Lanthanide-doped MoS₂: my first research story**
 
