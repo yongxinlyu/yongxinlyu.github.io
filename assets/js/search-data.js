@@ -303,7 +303,7 @@ ninja.data = [{
         },
       },{id: "projects-multi-scale-2d-materials-simulation",
           title: 'multi-scale 2D materials simulation',
-          description: "first-principles simulation and molecular dynamics",
+          description: "stories from my early research journey",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2D_material/";
             },},{id: "projects-ai-for-2d-perovskites",
