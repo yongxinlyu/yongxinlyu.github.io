@@ -1,0 +1,64 @@
+<!-- From CHATGPT! -->
+<!-- Ideally this would be in assets/html, but I couldn't include it in about.liquid
+ even with include_relative... -->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronounce My Name</title>
+    <style>
+        .pronunciation-button {
+          font-size: 0.4em;
+          background-color: transparent;
+          color: inherit;
+          border: none;
+          font-style: italic;
+          cursor: pointer;
+          padding: 0;
+          margin-left: 10px;
+          margin-bottom: 2px;
+          position: relative; /* Ensures the tooltip text is positioned correctly */
+          vertical-align: middle; /* Aligns the button with the text baseline */
+        }
+      
+        .pronunciation-button span {
+          visibility: hidden; /* Initially hides the text */
+          opacity: 0; /* Makes the text invisible */
+          transition: visibility 0s, opacity 0.3s ease-in-out; /* Smooth fade-in effect */
+          position: absolute;
+          left: 20px; /* Adjusts the text position relative to the icon */
+          top: 50%; /* Centers the text vertically */
+          transform: translateY(-50%);
+          white-space: nowrap; /* Prevents text from wrapping */
+          padding: 0 5px; /* Optional: Add some padding to the text */
+          border-radius: 5px; /* Optional: Rounded corners for the text background */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Subtle shadow for the text background */
+        }
+      
+        .pronunciation-button:hover span {
+          visibility: visible; /* Reveals the text on hover */
+          opacity: 1; /* Fades in the text */
+        }
+      </style>
+</head>
+<body>
+
+    <button class="pronunciation-button" onclick="playPronunciation()">
+        🔊 <span>(click for pronunciation)</span>
+      </button>
+
+    <audio id="namePronunciation">
+        <source src="/assets/audio/name_pronunciation.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        function playPronunciation() {
+            var audio = document.getElementById("namePronunciation");
+            audio.play();
+        }
+    </script>
+
+</body>
+</html>
