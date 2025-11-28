@@ -28,7 +28,7 @@ I still remember the excitement (and fear!) of walking into the CVD lab for the 
 
 In parallel, I began simulating the **relaxed structure and electronic properties** of Er-doped MoS₂ using first-principles calculations. This was the moment I realised how strongly I am drawn to explaining *why* materials behave the way they do. Modelling gave me a kind of clarity and control that I couldn’t find in the lab.
 
-This project became my **first publication in APL** and marked the beginning of my identity as a computational materials researcher.
+This project became my **first publication** in [APL](https://doi.org/10.1063/1.5120173) and marked the beginning of my identity as a computational materials researcher.
 
 ### **Molecular dynamics and black phosphorus**
 
@@ -40,10 +40,10 @@ This project became my **first publication in APL** and marked the beginning of 
 
 Shortly after finishing my MPhil, I was invited to join a collaborative project studying the **growth mechanism of black phosphorus**. This project pushed me outside my comfort zone and introduced me to **classical molecular dynamics** — a completely different simulation toolbox.
 
-My role was to model the atomic-level growth process and reveal why certain conditions lead to stable, large-area black phosphorus sheets. These simulations helped interpret the experimental observations and ultimately contributed to a breakthrough: the **first successful centimeter-scale growth of black phosphorus**, published in *Nature Materials*.
+My role was to model the atomic-level growth process and reveal why certain conditions lead to stable, large-area black phosphorus sheets. These simulations helped interpret the experimental observations and ultimately contributed to a breakthrough: the **first successful centimeter-scale growth of black phosphorus**, published in [Nature Materials](https://doi.org/10.1038/s41563-021-01001-7).
 
-### **Collaborations Across the 2D Materials World**
+### **Collaborations across the 2D materials world**
 
 Beyond these main projects, I was fortunate to collaborate with colleagues on a diverse set of 2D systems — **MXenes, TMDs, layered perovskite-related materials**, and more. Each project taught me how to adapt to new materials, work with different collaborators, and use simulation as a bridge between theory and experiment.
 
-A particularly meaningful collaboration was working with Prof**. Ran Ding**, who at that time was a postdoc in our group. Together, we investigated **2D perovskites** and produced two publications in xx and xx. These collaborations planted the seed that eventually led me to the field of hybrid perovskites, and ultimately shaped my PhD journey.
+A particularly meaningful collaboration was working with Prof. Ran Ding, who at that time was a postdoc in our group. Together, we investigated **2D perovskites** and produced two publications in [Advanced Materials](https://doi.org/10.1002/adma.202101263) and [Materials Today Physics](https://doi.org/10.1016/j.mtphys.2022.100867). These collaborations planted the seed that eventually led me to the field of hybrid perovskites, and ultimately shaped my PhD journey.

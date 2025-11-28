@@ -32,7 +32,7 @@ This workflow transforms what used to be trial-and-error chemistry into a **guid
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_DJ_perovskite/word_cloud.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_DJ_perovskite/word_cloud.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
