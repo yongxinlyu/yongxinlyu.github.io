@@ -2,7 +2,7 @@
 layout: post
 title: Finding my employability after the PhD
 date: 2025-11-09 00:00:00
-description: finding a job is hard TT
+description: Where do I fit in?
 categories: research
 featured: false
 ---
