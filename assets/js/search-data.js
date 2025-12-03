@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: "Finding my employability after the PhD",
         
-        description: "Where do I fit in?",
+        description: "where do I fit in?",
         section: "Posts",
         handler: () => {
           
