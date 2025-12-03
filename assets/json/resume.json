@@ -2,9 +2,7 @@
   "basics": {
     "name": "Yongxin Lyu",
     "email": "yongxin.lyu@unsw.edu.au",
-    "phone": "(61) 448692871",
-    "url": "https://yongxinlyu.github.io/",
-    "summary": "I'm a computational materials scientist with a focus on data-driven materials discovery."
+    "phone": "+61 448692871"
   },
   "education": [
     {
@@ -21,34 +19,34 @@
     },
     {
       "institution": "The Hong Kong Polytechnic University",
-      "studyType": "Bsc in Applied Physics",
+      "studyType": "BSc in Applied Physics",
       "startDate": "2013",
       "endDate": "2017"
     }
   ],
   "projects": [
     {
-      "name": "AI driven materials discovery",
+      "name": "AI driven 2D perovskite discovery",
       "description": "Professor Tom Wu's Group, University of New South Wales",
       "startDate": "2021",
       "endDate": "2025",
-      "url": "",
+      "url": "https://yongxinlyu.github.io/projects/AI_for_2D_perovskite/",
       "highlights": ["Developed an AI-assisted materials discovery pipeline for the design of 2D hybrid perovskites.", 
       "Inverse-designed novel 2D perovskite candidates targeting specific electronic properties."]
     },
     {
-      "name": "Modelling and synthesis of 2D materials",
+      "name": "Multi-scale modelling of 2D materials",
       "description": "Professor Jianhua Hao's Group, The Hong Kong Polytechnic University",
       "startDate": "2017",
       "endDate": "2021",
-      "url": "",
+      "url": "https://yongxinlyu.github.io/projects/2D_material/",
       "highlights": ["Investigated synthesis and luminescence in 2D materials using first-principles modeling.", 
       "Studied the mechanisms of large-scale black phosphorus growth via molecular dynamics simulations."]
     }
   ],
   "awards": [
     {
-      "title": "UNSW STEMM Champions Program",
+      "title": "STEMM Champions Program",
       "date": "2023",
       "awarder": "University of New South Wales",
       "summary": ""

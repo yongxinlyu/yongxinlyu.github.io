@@ -2,7 +2,7 @@
 layout: post
 title: Finding my employability after the PhD
 date: 2025-11-09 00:00:00
-description: Where do I fit in?
+description: where do I fit in?
 categories: research
 featured: false
 ---
