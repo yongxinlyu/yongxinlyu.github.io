@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Learning journal: my journey into topic modeling
+title: Learning journal - my journey into topic modeling
 date: 2026-01-06 00:00:00
-description: explore the world of natural language processing 
+description: to the wonderland of natural language processing 
 categories: research
 featured: false
 ---

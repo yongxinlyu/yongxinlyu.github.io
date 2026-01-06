@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From a distant dream to reality -- my AI4Science journey
+title: From a distant dream to reality - my AI4Science journey
 date: 2025-09-16 00:00:00
 description: a long way back to machine learning
 categories: research
