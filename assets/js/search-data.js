@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-finding-my-employability-after-the-phd",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-01-10-topic-modeling/";
+          
+        },
+      },{id: "post-finding-my-employability-after-the-phd",
         
           title: "Finding my employability after the PhD",
         
