@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Learning journal: my journey into topic modeling
-date: 2026-01-10 00:00:00
-description: explore the world of natural language processing
+date: 2026-01-06 00:00:00
+description: explore the world of natural language processing 
 categories: research
 featured: false
 ---
@@ -41,7 +41,7 @@ That shift in perspective was what ultimately drew me in.
 
 Once I decided to explore NLP more seriously, topic modelling quickly caught my attention. It promised a way to automatically discover structure in large collections of documents.  For example, imagine being able to quickly group research papers into themes and get a high-level sense of emerging or “hot” topics in a field. That alone could save a huge amount of time.
 
-There is no shortage of information online. ChatGPT can generate plenty of code snippets and explanations, and I started exploring this space during the Christmas holiday.
+There is no shortage of information online. ChatGPT can generate plenty of code snippets and explanations, and I started exploring this space during the Christmas holiday, on the trains to our hiking destinations.
 
 However, like acquiring any new skills in this era of chatbots, I quickly ran into a problem: the information felt **fragmented**.
 
