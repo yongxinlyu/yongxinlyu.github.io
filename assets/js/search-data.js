@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-learning-journal-my-journey-into-topic-modeling",
         
-          title: "",
+          title: "Learning journal - my journey into topic modeling",
         
-        description: "",
+        description: "to the wonderland of natural language processing",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-01-06-topic-modeling/";
+            window.location.href = "/blog/2026/topic-modeling/";
           
         },
       },{id: "post-finding-my-employability-after-the-phd",
@@ -61,7 +61,7 @@ ninja.data = [{
         },
       },{id: "post-diy-perovskite-crystal-model-origami-knitting-and-3d-printing",
         
-          title: "DIY Perovskite crystal model--Origami, knitting and 3D printing",
+          title: "DIY Perovskite crystal model - Origami, knitting and 3D printing",
         
         description: "a hands-on approach to science outreach and teaching materials science",
         section: "Posts",
@@ -72,7 +72,7 @@ ninja.data = [{
         },
       },{id: "post-from-a-distant-dream-to-reality-my-ai4science-journey",
         
-          title: "From a distant dream to reality -- my AI4Science journey",
+          title: "From a distant dream to reality - my AI4Science journey",
         
         description: "a long way back to machine learning",
         section: "Posts",
