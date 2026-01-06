@@ -45,7 +45,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-01-10-topic-modeling/";
+            window.location.href = "/blog/2026/2026-01-06-topic-modeling/";
           
         },
       },{id: "post-finding-my-employability-after-the-phd",
