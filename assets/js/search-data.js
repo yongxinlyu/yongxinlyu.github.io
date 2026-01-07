@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-learning-journal-my-journey-into-topic-modeling",
-        
-          title: "Learning journal - my journey into topic modeling",
-        
-        description: "to the wonderland of natural language processing",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/topic-modeling/";
-          
-        },
-      },{id: "post-finding-my-employability-after-the-phd",
+        },{id: "post-finding-my-employability-after-the-phd",
         
           title: "Finding my employability after the PhD",
         
