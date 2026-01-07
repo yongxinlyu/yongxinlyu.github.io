@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning journal - my journey into topic modeling
-date: 2026-01-06 00:00:00
+date: 2026-01-08 00:00:00
 description: to the wonderland of natural language processing 
 categories: research
 featured: false
@@ -10,13 +10,13 @@ featured: false
 
 I come from a machine learning background, mostly in the context of data science. Recently, however, I’ve become increasingly interested in **natural language processing (NLP)**.
 
-During my PhD, I heard about NLP and large language models (LLMs) all the time — from the everyday use of ChatGPT to research applications of language models in materials science. When I started job hunting, this interest was reinforced even more: many roles explicitly require experience with NLP or LLMs. Looking back now, I fully understand why.
+During my PhD, I heard about NLP and large language models (LLMs) all the time. Everyone is using chatGPT and astonished by how good it is, there are exploding amount of research papers in arxiv in the field of computer science saying that GPT may discover new materials with better properties. When I started job hunting, many roles explicitly require experience with NLP or LLMs. Looking back now, I fully understand why.
 
 At the time, though, I was sceptical. I felt that NLP and LLMs were surrounded by hype, and I couldn’t see an immediate or practical use for them in my own research workflow. I tended to associate NLP almost exclusively with **text generation**, which wasn’t something I thought I needed.
 
 That perspective changed recently.
 
-In this post, I want to document my learning journey into **topic modelling** as a beginner: what motivated me to explore NLP more seriously, where I initially felt lost, and how I started building a clearer mental model of this powerful technique. My hope is that this might be useful—or at least encouraging—for others who are curious about NLP but unsure where to begin.
+In this post, I want to document my learning journey into **NLP** as a beginner: what motivated me to explore NLP more seriously, how I builded a clearer mental model of this powerful technique within the past month, and share the results of my first NLP project: topic modeling of ARC discovery projects.
 
 ---
 
@@ -26,18 +26,22 @@ Very recently, I realised something that now feels obvious in hindsight: **langu
 
 Job descriptions, research proposals, funding schemes, papers across different disciplines, and descriptions of research areas I might want to move into: almost everything I needed to process was text. Reading, filtering, and synthesising all of this information took a huge amount of time.
 
-I started asking myself:
+I asked myself:
 
 > What if there were tools that could help me process and understand large collections of text more efficiently?
 > 
 
-This was when I began to seriously think about **treating text as data**. Importantly, I also realised that NLP isn’t only about *generating* text. An equally important—and, for me, more relevant—part of NLP is about **understanding, organising, and extracting structure from text**.
+This was when I began to seriously think about **treating text as data**. I didn't know this is natural language processing at first, I searched with the burning need for packages that process text as data in python, and to my suprise (in a good way) this is a one of the branches in NLP.
 
-That shift in perspective was what ultimately drew me in.
+There are much more about what NLP can do. LLM is only one branches in the world of NLP that gets many attention. It may seems difficult to directly train or fine-tune a chatGPT, but there are many applications in this field. A word cloud is a very simple NLP technique. Do you know that linkedIn job recommendation is also done using NLP. There are so many more flavours of NLP apart from generating text like chatGPT do.
+
+An equally important—and, for me, more relevant—part of NLP is about **understanding, organising, and extracting structure from text**.
 
 ---
 
 ### **Learning Topic Modelling**
+
+I started with grouping the job description of the job I'm applying for. I was quite familiar with the concept of unsupervised learning, so I asked chatGPT to generate the code for transforming the text (job description) into data that can be directly feed into machine learning models. The result was quite nice, I showed it in the last blog.
 
 Once I decided to explore NLP more seriously, topic modelling quickly caught my attention. It promised a way to automatically discover structure in large collections of documents.  For example, imagine being able to quickly group research papers into themes and get a high-level sense of emerging or “hot” topics in a field. That alone could save a huge amount of time.
 
