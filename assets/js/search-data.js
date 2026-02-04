@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "post-topic-modelling-learning-journal-part-3",
         
-          title: "Topic modelling learning journal part 3",
+          title: "Topic modelling learning journal (part 3)",
         
         description: "to the wonderland of natural language processing",
         section: "Posts",
@@ -50,9 +50,9 @@ ninja.data = [{
         },
       },{id: "post-topic-modelling-learning-journal-part-2",
         
-          title: "Topic modelling learning journal part 2",
+          title: "Topic modelling learning journal (part 2)",
         
-        description: "to the wonderland of natural language processing",
+        description: "explore the research space of ARC discovery projects",
         section: "Posts",
         handler: () => {
           
@@ -61,7 +61,7 @@ ninja.data = [{
         },
       },{id: "post-topic-modelling-learning-journal-part-1",
         
-          title: "Topic modelling learning journal part 1",
+          title: "Topic modelling learning journal (part 1)",
         
         description: "to the wonderland of natural language processing",
         section: "Posts",
