@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning journal - my journey into topic modeling
+title: Topic modelling learning journal part 1
 date: 2026-01-06 00:00:00
 description: to the wonderland of natural language processing 
 categories: research
@@ -14,9 +14,9 @@ During my PhD, I constantly heard about NLP and large language models (LLMs). Ev
 
 At the time, though, I was sceptical. I felt that NLP and LLMs were surrounded by hype, and I couldn’t see an immediate or practical use for them in my own research workflow. I tended to associate NLP almost exclusively with **text generation**, which wasn’t something I thought I needed.
 
-That perspective has changed.
+That perspective has changed. 
 
-In this post, I want to document my learning journey into **NLP** as a beginner: what motivated me to explore NLP more seriously, how I built a clearer mental model of this field over the past three months, and the results of my first NLP project—topic modelling of ARC Discovery Projects.
+In this series of 3 posts, I want to share my learning journey into **NLP** as a beginner. In this post (part 1), I will share what motivated me to explore NLP more seriesly and how I build a clearer mental model of this field over the past three months. In the next two parts, I will share the result of my first NLP project-topic modelling of ARC Discovery Projects.
 
 ---
 
@@ -48,7 +48,7 @@ Over the past few months, I’ve been actively job hunting. Postdoctoral roles, 
 
 If you’re familiar with unsupervised learning, this idea is similar to **dimensionality reduction**—compressing high-dimensional data into two dimensions that can be visualised. Conceptually, topic modelling felt very familiar to me from a machine learning perspective. The main difference lies in **how text is transformed into numerical features**.
 
-There is no shortage of information online. ChatGPT can generate plenty of code snippets and explanations, and I used it extensively. I asked ChatGPT to generate code for transforming job descriptions into numerical representations that could be fed into machine learning models. The results were quite good, and I shared some of this in my [previous blog post](insert link).
+There is no shortage of information online. ChatGPT can generate plenty of code snippets and explanations, and I used it extensively. I asked ChatGPT to generate code for transforming job descriptions into numerical representations that could be fed into machine learning models. The results were quite good, and I shared some of this in my [previous blog post](https://yongxinlyu.github.io/blog/2025/job-hunting/).
 
 However, like acquiring any new skill in the era of chatbots, the information I encountered was **fragmented**. I didn’t always understand *why* things worked, what the results really meant, or how different methods fit together within the broader NLP landscape.
 
@@ -161,7 +161,7 @@ Overall, this visualisation was an important sanity check. It reassured me that:
 
 After exploring the global structure with TF-IDF and PCA, I moved on to **Bag-of-Words + LDA** to extract more explicit, interpretable topics.
 
-I experimented with different numbers of topics and eventually settled on **six**, balancing granularity and interpretability. To visualise the results, I used a **Termite-like topic–term matrix**, a design originally proposed by researchers at Stanford.
+I experimented with different numbers of topics and eventually settled on **six**, balancing granularity and interpretability. To visualise the results, I used a **Termite-like topic–term matrix**, a design originally proposed by [researchers at Stanford](http://vis.stanford.edu/files/2012-Termite-AVI.pdf).
 
 The resulting matrix is genuinely fascinating. Some themes are immediately recognisable. For example, **artificial intelligence** clearly emerges as a dominant topic, reflecting its growing prominence across many funding areas rather than being confined to a single discipline.
 
