@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic modelling learning journal part 1
+title: Topic modelling learning journal (part 1)
 date: 2026-01-06 00:00:00
 description: to the wonderland of natural language processing 
 categories: research
@@ -91,8 +91,11 @@ Embedding-based methods often produce cleaner-looking topics, handle short or no
 For my learning goals, I’m currently leaning towards **classical approaches**, especially LDA. Even though these models have been around for many years, they provide a strong conceptual foundation. I see them as essential baselines to understand before moving on to more complex models.
 
 
-### **Closing thoughts**
+---
+
 I hope this post provides enough background on my motivation for learning topic modelling and my current understanding of the field. In the next two parts, I’ll share how I applied what I learned in practice by modelling topics in ARC Discovery Projects based on their descriptions.
+
+---
 
 
 

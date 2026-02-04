@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic modelling learning journal part 3
+title: Topic modelling learning journal (part 3)
 date: 2026-02-03 01:00:00
 description: to the wonderland of natural language processing 
 categories: research
