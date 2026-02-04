@@ -37,15 +37,37 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-learning-journal-my-journey-into-topic-modeling",
+        },{id: "post-topic-modelling-learning-journal-part-3",
         
-          title: "Learning journal - my journey into topic modeling",
+          title: "Topic modelling learning journal part 3",
         
         description: "to the wonderland of natural language processing",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/topic-modeling/";
+            window.location.href = "/blog/2026/topic-modelling-III/";
+          
+        },
+      },{id: "post-topic-modelling-learning-journal-part-2",
+        
+          title: "Topic modelling learning journal part 2",
+        
+        description: "to the wonderland of natural language processing",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/topic-modelling-II/";
+          
+        },
+      },{id: "post-topic-modelling-learning-journal-part-1",
+        
+          title: "Topic modelling learning journal part 1",
+        
+        description: "to the wonderland of natural language processing",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/topic-modelling-I/";
           
         },
       },{id: "post-finding-my-employability-after-the-phd",
