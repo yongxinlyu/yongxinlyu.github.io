@@ -20,6 +20,7 @@ All of these factors make it harder for classical topic models to identify clean
 
 I ended up with two findings that I found particularly interesting. In this second post of the topic modelling learning journal series, I focus on providing a high-level overview of the research space represented in this dataset. In the final post, I will dive deeper into the topics themselves and what they reveal.
 
+---
 
 ### **Analysis pipeline overview**
 
@@ -38,6 +39,7 @@ I then converted the text into numerical vectors representing word importance us
 
 Because I was interested in the structure of the project space at this stage, I first applied a dimensionality reduction technique to project the  high-dimensional TF-IDF representations onto a 2D surface based on shared vocabulary patterns.
 
+---
 
 ### **Visualizing the project content space**
 
@@ -53,6 +55,8 @@ When I first saw this figure, it was genuinely exciting. Projects sharing the sa
 
 This result shouldn’t be surprising—but it is still fascinating to see how much structure can be recovered using nothing more than free, open-source tools running on a personal computer.
 
+---
+
 ### **Broad structure of the research space**
 
 The projection forms a rough triangular shape, suggesting the presence of three broad extremes in the research landscape.
@@ -60,6 +64,8 @@ The projection forms a rough triangular shape, suggesting the presence of three 
 The right corner is dominated by biology-related fields, top-left corner by chemical sciences, and the bottom-left corner by social sciences. This makes intuitive sense: these disciplines use very different vocabularies and conceptual frameworks.
 
 What *surprised* me slightly is how elongated the triangle is toward the biology corner. This suggests that biology-related research may be more linguistically distinct from both chemical sciences and social sciences than those two are from each other—at least in this dataset.
+
+---
 
 ### **Zooming in: the biology corner**
 
@@ -73,7 +79,6 @@ Reading the project descriptions makes this separation immediately intuitive, an
 
 In the next and final post of this series, I’ll move beyond the geometric structure of the project space and focus on explicit topic modelling—the topics themselves and the trends that emerge across ARC Discovery Projects.
 
----
 
 
 

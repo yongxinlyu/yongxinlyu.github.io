@@ -95,7 +95,6 @@ For my learning goals, I’m currently leaning towards **classical approaches**,
 
 I hope this post provides enough background on my motivation for learning topic modelling and my current understanding of the field. In the next two parts, I’ll share how I applied what I learned in practice by modelling topics in ARC Discovery Projects based on their descriptions.
 
----
 
 
 
