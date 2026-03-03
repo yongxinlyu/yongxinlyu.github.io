@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Topic modelling learning journal (part 3)
-date: 2026-03-03 01:00:00
+date: 2026-03-02 01:00:00
 description: to the wonderland of natural language processing 
 categories: research
 featured: false
@@ -23,6 +23,14 @@ I experimented with different numbers of topics and eventually settled on **six*
         {% include figure.liquid loading="eager" path="assets/img/blog_figure/topic-modeling-termite-matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+{% raw %}
+<iframe src="/assets/img/blog_figure/Topic_to_FOR_mapping.html" width="100%" height="500" frameborder="0"></iframe>
+{% endraw %}
+
+{% raw %}
+<iframe src="/assets/img/blog_figure/Termite-like_matrix.html" width="100%" height="500" frameborder="0"></iframe>
+{% endraw %}
 
 The resulting matrix is genuinely fascinating. Some themes are immediately recognisable. For example, **artificial intelligence** clearly emerges as a dominant topic, reflecting its growing prominence across many funding areas rather than being confined to a single discipline.
 
