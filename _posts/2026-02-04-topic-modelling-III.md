@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Topic modelling learning journal (part 3)
-date: 2026-03-05 01:00:00
-description: to the wonderland of natural language processing 
+date: 2026-03-03 01:00:00
+description: letting machine read 2,000 research proposals
 categories: research
 featured: false
 ---
