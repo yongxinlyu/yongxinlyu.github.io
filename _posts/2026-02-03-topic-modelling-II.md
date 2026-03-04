@@ -8,7 +8,7 @@ featured: false
 ---
 
 
-In my previous post, [Topic modelling learning journal (part 1)](https://yongxinlyu.github.io/blog/2026/topic-modelling-I/), I shared how I approached learning topic modelling as a beginner. For me, the fastest way to learn is always through a concrete project,  so I chose **ARC Discovery Projects from the 2023–2026 funding rounds** as my first formal NLP task.
+In my previous post, [topic modelling learning journal (part 1)](https://yongxinlyu.github.io/blog/2026/topic-modelling-I/), I shared how I approached learning topic modelling as a beginner. For me, the fastest way to learn is always through a concrete project,  so I chose **ARC Discovery Projects from the 2023–2026 funding rounds** as my first formal NLP task.
 
 Like many researchers who have spent a large part of their academic life chasing funding, I believe that understanding **emerging trends**—and what kinds of topics attract funding—is extremely important.
 
