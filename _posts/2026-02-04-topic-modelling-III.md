@@ -34,7 +34,7 @@ In practice, this helps filter out very common words that appear across many doc
 The visualization below shows the top 30 high-lift keywords for each topic using a **Termite-style topic–term matrix**, a [design](http://vis.stanford.edu/files/2012-Termite-AVI.pdf) originally proposed by researchers at Stanford. In this plot, each column represents a topic, each row represents a keyword, and the size of the bubble indicates the lift value.
 
 {% raw %}
-<iframe src="/assets/img/blog_figure/Termite-like_matrix.html" width="100%" frameborder="0"></iframe>
+<iframe src="/assets/img/blog_figure/Termite-like_matrix.html" width="100%" height="800" frameborder="0"></iframe>
 {% endraw %}
 
 The Termite-style topic–term matrix reveals a very clear pattern: most high-lift words are strongly associated with only one topic. This suggests that the model has learned **well-separated themes with relatively little overlap in vocabulary**.
@@ -44,22 +44,22 @@ In other words, each topic appears to correspond to a fairly distinct research d
 Based on the high-lift keywords, I asked my best friend ChatGPT to help summarise what each topic seems to represent. For each topic, I also linked the top-ranked Discovery Project (DP) summary associated with that topic.
 
 
-- **Topic 0 - Social policy, inequality, and community wellbeing**
+- **Topic 0** - Social policy, inequality, and community wellbeing. 
 🔗 [Top Discovery Project](https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/273#:~:text=Haslam-,This%20project%20aims%20to,current%20mental%20health%20crisis.,-The)
 
-- **Topic 1 - Ecology, biodiversity, and climate impacts on ecosystems**
+- **Topic 1** - Ecology, biodiversity, and climate impacts on ecosystems.
  🔗 [Top Discovery Project](https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/259#:~:text=To%20prevent%20virus,of%20ecosystem%20health.)
 
-- **Topic 2 - Artificial intelligence, machine learning, and data science** 
+- **Topic 2** - Artificial intelligence, machine learning, and data science. 
  🔗 [Top Discovery Project](https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/289#:~:text=Zhen%20Peng-,This%20project%20aims%20to%20develop,safety%20and%20reduce%20maintenance%20costs.,-Curtin%20University)
 
-- **Topic 3 - Renewable energy, climate, and environmental systems**
+- **Topic 3** - Renewable energy, climate, and environmental systems.
  🔗 [Top Discovery Project](https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/289#:~:text=To%20secure%20the,emissions%20reduction%20targets.)
 
-- **Topic 4 - Cellular and molecular biology**
+- **Topic 4** - Cellular and molecular biology.
  🔗 [Top Discovery Project](https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/289#:~:text=Amelia%20Liu-,This%20project%20aims%20to%20utilise,health%2C%20communications%20and%20manufacturing%20sectors.,-Monash%20University)
 
-- **Topic 5 - Physics, materials science, and advanced technologies** 
+- **Topic 5** - Physics, materials science, and advanced technologies. 
  🔗 [Top Discovery Project](https://rms.arc.gov.au/RMS/Report/Download/Report/1b0c8b2e-7bb0-4f2d-8f52-ad207cfbb41d/243#:~:text=Vertebrate%20vasculature%20forms,and%20regenerative%20biology.)
 
 ---
@@ -93,7 +93,7 @@ Another question that naturally came to mind is how these topics evolve over tim
 The figure below shows the proportion of projects associated with each topic across different funding years. The size of the bubbles represents the **total funding allocated** to each topic.
 
 {% raw %}
-<iframe src="/assets/img/blog_figure/topic_evolution.html" width="100%" height="400" frameborder="0"></iframe>
+<iframe src="/assets/img/blog_figure/topic_evolution.html" width="100%" height="500" frameborder="0"></iframe>
 {% endraw %}
 
 Interestingly, the AI-related topic does not show a dramatic increase in either proportion or funding share over this period.
