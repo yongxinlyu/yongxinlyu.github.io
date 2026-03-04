@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Topic modelling learning journal (part 3)
-date: 2026-03-02 01:00:00
+date: 2026-03-05 01:00:00
 description: to the wonderland of natural language processing 
 categories: research
 featured: false
@@ -14,15 +14,6 @@ featured: false
 After exploring the global structure with TF-IDF and PCA, I moved on to **Bag-of-Words + LDA** to extract more explicit, interpretable topics.
 
 I experimented with different numbers of topics and eventually settled on **six**, balancing granularity and interpretability. To visualise the results, I used a **Termite-like topic–term matrix**, a design originally proposed by [researchers at Stanford](http://vis.stanford.edu/files/2012-Termite-AVI.pdf).
-
-
-
-
-<div class="row mt-3 justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog_figure/topic-modeling-termite-matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
 
 {% raw %}
 <iframe src="/assets/img/blog_figure/Topic_to_FOR_mapping.html" width="100%" height="500" frameborder="0"></iframe>
