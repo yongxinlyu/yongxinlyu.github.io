@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-how-kahoot-became-my-teaching-life-saver-draft",
+        },{id: "post-how-kahoot-became-my-teaching-life-saver",
         
-          title: "How Kahoot Became My Teaching Life Saver **draft",
+          title: "How Kahoot became my teaching life saver",
         
         description: "reflecting on one year of teaching",
         section: "Posts",
