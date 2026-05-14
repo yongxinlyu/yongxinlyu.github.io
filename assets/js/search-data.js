@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-topic-modelling-learning-journal-part-3",
+        },{id: "post-how-kahoot-became-my-teaching-life-saver-draft",
+        
+          title: "How Kahoot Became My Teaching Life Saver **draft",
+        
+        description: "reflecting on one year of teaching",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/kahoot/";
+          
+        },
+      },{id: "post-topic-modelling-learning-journal-part-3",
         
           title: "Topic modelling learning journal (part 3)",
         
