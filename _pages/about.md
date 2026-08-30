@@ -27,7 +27,7 @@ Hi there! I’m Yongxin.
 
 I finished my PhD in computational materials science last year. Since then, I’ve been exploring different sides of what I’m capable of through teaching and research collaborations.
 
-I’m still in a period of transition after my PhD. I’m proud of the research I created over the past few years, but I’m also curious about how I can bring what I’ve created into the classroom and discover other sides of myself through teaching.
+I’m still on a journey to find my *ikigai* after finishing my PhD, and I’m learning to be okay with not having all the answers yet. I’m proud of the research I created over the past few years, but I’m also curious about how I can bring what I’ve created into the classroom and discover other sides of myself through teaching.
 
 I created this website during the final year of my PhD as a comfortable little corner of the internet to share reflections, my struggles as a researcher, and anything I find useful along the way.
 
