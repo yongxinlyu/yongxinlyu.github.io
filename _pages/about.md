@@ -23,10 +23,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a recent PhD graduate in computational materials science from UNSW Sydney. My research centers on high-throughput atomistic simulations, data-driven methods, and interpretable machine learning to explore the vast chemical space of functional materials. 
+Hi there! I’m Yongxin.
 
-At UNSW, I'm part of [Professor Tom Wu](https://www.unsw.edu.au/staff/tom-wu)'s group. My research focuses on `inverse design` of 2D `perovskites` using machine learning and first-principles calculations.
+I finished my PhD in computational materials science last year. Since then, I’ve been exploring different sides of what I’m capable of through teaching and research collaborations.
 
-Previously, I completed my BSc and MPhil in Applied Physics at the Hong Kong Polytechnic University, where I explored `2D materials` using multiscale simulation methods in [Professor Jianhua Hao](https://ap.polyu.edu.hk/apjhhao/)'s group.
+I’m still in a period of transition after my PhD. I’m proud of the research I created over the past few years, but I’m also curious about how I can bring what I’ve created into the classroom and discover other sides of myself through teaching.
 
-I’m passionate about making scientific ideas more accessible and finding creative ways to communicate my research. Outside of science, I enjoy practicing yoga, swimming in the ocean, and working on various handcrafted projects.
+I created this website during the final year of my PhD as a comfortable little corner of the internet to share reflections, my struggles as a researcher, and anything I find useful along the way.
+
+If you’re here, thank you for stopping by my little corner. Feel free to reach out!
