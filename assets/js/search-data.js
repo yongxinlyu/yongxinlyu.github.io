@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-how-kahoot-became-my-teaching-life-saver",
+        },{id: "post-some-thoughts-on-ai-in-education",
+        
+          title: "Some thoughts on AI in education",
+        
+        description: "reflections on AI use in student presentations",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/AI-in-education/";
+          
+        },
+      },{id: "post-how-kahoot-became-my-teaching-life-saver",
         
           title: "How Kahoot became my teaching life saver",
         
