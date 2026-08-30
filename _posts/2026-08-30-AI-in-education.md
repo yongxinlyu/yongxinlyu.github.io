@@ -28,7 +28,7 @@ And then there is the colour coding. ChatGPT really seems to like pastel colour 
 (The slide below is what I asked ChatGPT to generate from the content above, and I think the style captures these patterns pretty well!) 
 
 <div class="row mt-3 justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog_figure/ai-in-student-presentation.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
